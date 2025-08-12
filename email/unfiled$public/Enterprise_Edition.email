@@ -1,0 +1,29 @@
+Hi Everyone,
+ 
+We are officially upgrading to the Enterprise Edition of Salesforce.
+ 
+The upgrade will afford us many benefits. First and foremost, all CTS and DT data will be housed in one single instance which will allow for better, more consolidated reporting. It will help ensure the sales people aren’t working each others customers or prospects. Additionally, the upgrade will give us access to many new features that will enhance and streamline the use of the Salesforce as we continue to manage our prospects/pipeline on the sales side, and our customers/services with account management and operations.
+ 
+Since the CTS and DT editions of Salesforce now mirror each other, the plan is to move the CTS data to the DT instance.  
+ 
+Data migration will occur between 1/15 and 1/25. During that ten-day period, Directravel users will experience business as usual when working in Salesforce.
+ 
+Things you may notice during the data migration period: 
+ 
+(1) Duplicate records. Once all of the data is migrated into one edition, these records will be compared and de-duplicated. 
+ 
+(2) The DT logo on the Salesforce.com home page has been removed.
+ 
+We ask for your cooperation in not touching any records that you do not own. 
+ 
+Stay tuned for more information.  I just wanted to send a preliminary note so you know what’s coming in the very near future.  In the meantime, please let me know if you have questions or concerns.  
+
+Thanks!
+ 
+Madeline Krazit
+Salesforce.com Administrator/Marketing
+Directravel
+860 Wyckoff Avenue
+Mahwah, NJ 07430
+Phone: 201. 847.2122
+e-Mail: mkrazit@dt.com

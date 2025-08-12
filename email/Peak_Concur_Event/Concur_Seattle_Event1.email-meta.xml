@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Event on 7-22-15</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Concur - Seattle Event</name>
+    <style>none</style>
+    <subject>Event at Inn at the Market Hotel with Peak/Direct Travel</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

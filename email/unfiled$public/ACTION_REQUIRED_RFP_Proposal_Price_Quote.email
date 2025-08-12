@@ -1,0 +1,10 @@
+{!Opportunity.With_RFP__c}
+Your assistance is requested by {!Opportunity.OwnerFullName}.
+Opportunity Owner's email - {!Opportunity.OwnerEmail}
+Account Name - {!Opportunity.Account}
+Opportunity Record Type - {!Opportunity.RecordType}
+Opportunity Type - {!Opportunity.Type}
+Amount - {!Opportunity.Amount}
+Next Step - {!Opportunity.NextStep}
+  
+Here is a link to the Opportunity record for full details. {!Opportunity.Link}

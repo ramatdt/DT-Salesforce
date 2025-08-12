@@ -1,0 +1,16 @@
+Hi Everyone,
+
+We have created a Contact view in Salesforce called "My Contacts - Subscriptions." To access it > click on the Contacts Tab > in the View Window use the down arrow in the field box to select "My Contacts - Subscriptions" > click Go. The list rendered will include all of the Contacts that you own in Salesforce.  
+
+In order for a Contact to receive any of our e-publications, you must check mark that specific publication on the individual's Contact record.  Also, review to insure that they have an email address on their record. In addition, if the Contact is your Primary contact at a client company, check the "Primary Contact" box, too. Note: For ease of editing, you can open a specific contact record from the Contact view, by simply right-clicking on the contact link and selecting “Open in a new Window”.
+
+I have also included a cheatsheet providing descriptions of the publications that we manage in Salesforce. Please note: if a client is subscribed to receive iJet CUSTOM alerts, there is a box on the ACCOUNT record which must be checked off, too. It's the last field listed under the section heading on the page layout "Client - Travel Services."
+
+Please let me know if you need any help with managing subscriptions.
+
+Thanks,
+
+Madeline Krazit
+Salesforce Administrator
+mkrazit@dt.com
+201-847-2122

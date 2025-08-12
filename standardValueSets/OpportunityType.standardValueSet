@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New Business</fullName>
+        <default>false</default>
+        <label>New Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Global Expansion</fullName>
+        <default>false</default>
+        <label>Global Expansion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Global Rebid or Renewal</fullName>
+        <default>false</default>
+        <label>Global Rebid or Renewal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Trials</fullName>
+        <default>false</default>
+        <label>Clinical Trials</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Re-Bid</fullName>
+        <default>false</default>
+        <label>Re-Bid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal / Re-Negotiation</fullName>
+        <default>false</default>
+        <label>Renewal / Re-Negotiation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Up-Sell</fullName>
+        <default>false</default>
+        <label>Up-Sell</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Customer</fullName>
+        <default>false</default>
+        <label>Existing Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Global</fullName>
+        <default>false</default>
+        <label>Global</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business Global</fullName>
+        <default>false</default>
+        <label>New Business Global</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Customer Global</fullName>
+        <default>false</default>
+        <label>Existing Customer Global</label>
+    </standardValue>
+</StandardValueSet>

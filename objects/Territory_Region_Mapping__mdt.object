@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This has been created to map and assign respective sales region, state based on Address.</description>
+    <label>Territory Region Mapping</label>
+    <pluralLabel>Territory Region Mappings</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Region__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Region</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mid Market</fullName>
+                    <default>false</default>
+                    <label>Mid Market</label>
+                </value>
+                <value>
+                    <fullName>North West</fullName>
+                    <default>false</default>
+                    <label>North West</label>
+                </value>
+                <value>
+                    <fullName>South West</fullName>
+                    <default>false</default>
+                    <label>South West</label>
+                </value>
+                <value>
+                    <fullName>Midwest</fullName>
+                    <default>false</default>
+                    <label>Midwest</label>
+                </value>
+                <value>
+                    <fullName>South</fullName>
+                    <default>false</default>
+                    <label>South</label>
+                </value>
+                <value>
+                    <fullName>South East</fullName>
+                    <default>false</default>
+                    <label>South East</label>
+                </value>
+                <value>
+                    <fullName>North East</fullName>
+                    <default>false</default>
+                    <label>North East</label>
+                </value>
+                <value>
+                    <fullName>Strategic Named Accounts</fullName>
+                    <default>false</default>
+                    <label>Strategic Named Accounts</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>States__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>States</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IsEnterprise__c</fullName>
+        <defaultValue>false</defaultValue>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>IsEnterprise</label>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

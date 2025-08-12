@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Read</contactAccessLevel>
+    <description>Operations Canada Team 6</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Operations Canada Team 6</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>Operations_Canada_Leader_1</parentRole>
+</Role>

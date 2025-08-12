@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Response</fullName>
+        <default>false</default>
+        <label>No Response</label>
+    </customValue>
+    <customValue>
+        <fullName>No Interest</fullName>
+        <default>false</default>
+        <label>No Interest</label>
+    </customValue>
+    <customValue>
+        <fullName>Poor Timing</fullName>
+        <default>false</default>
+        <label>Poor Timing</label>
+    </customValue>
+    <customValue>
+        <fullName>Under Contract</fullName>
+        <default>false</default>
+        <label>Under Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Competition Loyalty</fullName>
+        <default>false</default>
+        <label>Competition Loyalty</label>
+    </customValue>
+    <customValue>
+        <fullName>Existing Opportunity</fullName>
+        <default>false</default>
+        <label>Existing Opportunity</label>
+    </customValue>
+    <description>Picklist of reasons a Lead or Contact is recycled.</description>
+    <masterLabel>Recycle Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

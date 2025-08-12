@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Green - Excellent (Hot)</fullName>
+        <default>false</default>
+        <label>Green - Excellent (Hot)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Yellow - Average (Warm)</fullName>
+        <default>false</default>
+        <label>Yellow - Average (Warm)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Red - Poor (Cold)</fullName>
+        <default>false</default>
+        <label>Red - Poor (Cold)</label>
+    </standardValue>
+</StandardValueSet>

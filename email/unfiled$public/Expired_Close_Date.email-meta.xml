@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Expired Close Date notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>DT_Signature</letterhead>
+    <name>Expired Close Date</name>
+    <style>freeForm</style>
+    <subject>Close Date has expired on this Open Opportunity</subject>
+    <textOnly>Hi {!Opportunity.OwnerFirstName},
+
+Just a note to let you know that the Close Date is expired on this Open Opportunity.  Please update it.
+
+{!Opportunity.Name}
+
+Thanks,
+
+Madeline Krazit, Salesforce Administrator
+
+phone: 201.847.2122 email: mkrazit@dt.com website: www.dt.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

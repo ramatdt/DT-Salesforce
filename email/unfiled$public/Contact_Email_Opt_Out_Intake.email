@@ -1,0 +1,13 @@
+Hi {!Contact.OwnerFirstName},
+
+One of your Primary Contacts has recently changed their Email Opt Out status requesting that they no longer recieve emails.
+
+Please notify {!Contact.Name} and verify that they understand that by opting out of recieving email, they can no longer act as the Crisis24 Admin or OBT Admin.  Once verified, please update the Contact information accordingly.
+
+{!Contact.Name}
+{!Contact.Link}
+
+Thank you for your assistance,
+
+Your Salesforce Admins
+salesforcesupport@dt.com

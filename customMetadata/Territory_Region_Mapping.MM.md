@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>MM</label>
+    <protected>false</protected>
+    <values>
+        <field>IsEnterprise__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Region__c</field>
+        <value xsi:type="xsd:string">Mid Market</value>
+    </values>
+    <values>
+        <field>States__c</field>
+        <value xsi:type="xsd:string">AZ,
+AR,
+AK,
+CA,
+CO,
+HI,
+ID,
+IL,
+IA,
+KS,
+KY,
+LA,
+MN,
+MO,
+MT,
+NV,
+NE,
+NM,
+ND,
+OK,
+OR,
+SD,
+TX,
+UT,
+WA,
+WI,
+WY,
+AL,
+CT,
+DE,
+FL,
+GA,
+IN,
+ME,
+MD,
+MA,
+MI,
+MS,
+NH,
+NJ,
+NY,
+NC,
+OH,
+PA,
+RI,
+SC,
+TN,
+VT,
+VA,
+DC,
+WV</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Crisis24 Admin Checked and Email Changed</name>
+    <style>none</style>
+    <subject>Revise Subscriber Email on Travel Alert List - DOMESTIC</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Prospect Account</fullName>
+        <default>false</default>
+        <label>Prospect Account</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect, Lost Client</fullName>
+        <default>false</default>
+        <label>Prospect, Lost Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Avenir Prospect</fullName>
+        <default>false</default>
+        <label>Avenir Prospect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Avenir Client</fullName>
+        <default>false</default>
+        <label>Avenir Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada Client</fullName>
+        <default>false</default>
+        <label>Canada Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Central Client</fullName>
+        <default>false</default>
+        <label>Central Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>East Client</fullName>
+        <default>false</default>
+        <label>East Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>West Client</fullName>
+        <default>false</default>
+        <label>West Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Prospect</fullName>
+        <default>false</default>
+        <label>Clinical Prospect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Client</fullName>
+        <default>false</default>
+        <label>Clinical Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ATPI Client</fullName>
+        <default>false</default>
+        <label>ATPI Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>M&amp;E Client</fullName>
+        <default>false</default>
+        <label>M&amp;E Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IC Corporate Acct</fullName>
+        <default>false</default>
+        <label>IC Corporate Acct</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fulfillment Only</fullName>
+        <default>false</default>
+        <label>Fulfillment Only</label>
+    </standardValue>
+    <standardValue>
+        <fullName>(D) Deleted Account</fullName>
+        <default>false</default>
+        <label>(D) Deleted Account</label>
+    </standardValue>
+    <standardValue>
+        <fullName>(X) DNC - Over/Under Size</fullName>
+        <default>false</default>
+        <label>(X) DNC - Over/Under Size</label>
+    </standardValue>
+    <standardValue>
+        <fullName>(F) IC or Outside Sales</fullName>
+        <default>false</default>
+        <label>(F) IC or Outside Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>(CI) Competitive Intelligence</fullName>
+        <default>false</default>
+        <label>(CI) Competitive Intelligence</label>
+    </standardValue>
+    <standardValue>
+        <fullName>(I) Industry Consultant</fullName>
+        <default>false</default>
+        <label>(I) Industry Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>(S) Supplier</fullName>
+        <default>false</default>
+        <label>(S) Supplier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>(Z) Temp</fullName>
+        <default>false</default>
+        <label>(Z) Temp</label>
+    </standardValue>
+</StandardValueSet>

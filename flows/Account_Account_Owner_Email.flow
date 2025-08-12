@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>AM_Central_Email</name>
+        <label>AM Central Email</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Owner_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>AMCentralSupport@dt.com</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>AM_West_Email</name>
+        <label>AM West Email</label>
+        <locationX>578</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Owner_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>directselect_west@dt.com</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Canada_East_Email</name>
+        <label>Canada East Email</label>
+        <locationX>1106</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Owner_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>CAE-Directselect@dt.com</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Canada_West_Email</name>
+        <label>Canada West Email</label>
+        <locationX>1370</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Owner_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>CAW-Directselect@dt.com</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>CLEW_Email</name>
+        <label>CLEW Email</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Owner_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>clew-directselect@dt.com</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>East_Client_Email</name>
+        <label>East Client Email</label>
+        <locationX>842</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Owner_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>clientrelations@dt.com</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Empty_Field</name>
+        <label>Empty Field</label>
+        <locationX>1634</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Owner_Email__c</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Fill_User_Owner_Email</name>
+        <label>Fill User Owner Email</label>
+        <locationX>1898</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Owner_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Owner.Email</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Direct_Select</name>
+        <label>Direct Select</label>
+        <locationX>1370</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Fill_User_Owner_Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>isDS</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>0053A00000ATnKPQA1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sort_Records</targetReference>
+            </connector>
+            <label>isDS</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sort_Records</name>
+        <label>Sort Records</label>
+        <locationX>842</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>Empty_Field</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>CLEW</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Central Client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Res_Center_Booking_Office__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cleveland West</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CLEW_Email</targetReference>
+            </connector>
+            <label>CLEW</label>
+        </rules>
+        <rules>
+            <name>AM_Central</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Central Client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Res_Center_Booking_Office__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Cleveland West</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AM_Central_Email</targetReference>
+            </connector>
+            <label>AM Central</label>
+        </rules>
+        <rules>
+            <name>AM_West</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>West Client</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AM_West_Email</targetReference>
+            </connector>
+            <label>AM West</label>
+        </rules>
+        <rules>
+            <name>East_Client</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>East Client</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>East_Client_Email</targetReference>
+            </connector>
+            <label>East Client</label>
+        </rules>
+        <rules>
+            <name>Canada_East</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canada Client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Region__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canada East</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Canada_East_Email</targetReference>
+            </connector>
+            <label>Canada East</label>
+        </rules>
+        <rules>
+            <name>Canada_West</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canada Client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Region__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canada West</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Canada_West_Email</targetReference>
+            </connector>
+            <label>Canada West</label>
+        </rules>
+    </decisions>
+    <description>Before save flow to populate the Account Owner Email field.</description>
+    <environments>Default</environments>
+    <interviewLabel>Account - Direct Select Email {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Account - Account Owner Email</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>1244</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Direct_Select</targetReference>
+        </connector>
+        <filterFormula>OR(
+    ISNEW(),
+    ISCHANGED({!$Record.OwnerId}),
+    ISCHANGED({!$Record.Region__c}),
+    ISCHANGED({!$Record.Res_Center_Booking_Office__c}),
+    ISCHANGED({!$Record.Type})
+)</filterFormula>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

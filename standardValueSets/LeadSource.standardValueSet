@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Acquisition Integration / Lead Source Unknown</fullName>
+        <default>false</default>
+        <label>Acquisition Integration / Lead Source Unknown</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Allstars Travel Group (ATG)</fullName>
+        <default>false</default>
+        <label>Allstars Travel Group (ATG)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ATPI</fullName>
+        <default>false</default>
+        <label>ATPI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Center</fullName>
+        <default>false</default>
+        <label>Center</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinicaltrials.gov</fullName>
+        <default>false</default>
+        <label>Clinicaltrials.gov</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Concur Referral</fullName>
+        <default>false</default>
+        <label>Concur Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference/Trade Show</fullName>
+        <default>false</default>
+        <label>Conference/Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Creative Group</fullName>
+        <default>false</default>
+        <label>Creative Group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer referral</fullName>
+        <default>false</default>
+        <label>Customer Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Deem_Referral</fullName>
+        <default>false</default>
+        <label>Deem Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referral</fullName>
+        <default>false</default>
+        <label>Employee Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enterprise Referral</fullName>
+        <default>false</default>
+        <label>Enterprise Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Global Partner</fullName>
+        <default>false</default>
+        <label>Global Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbounded Call to DT</fullName>
+        <default>false</default>
+        <label>Inbounded Call to DT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industry/Supplier Networking</fullName>
+        <default>false</default>
+        <label>Industry/Supplier Networking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industry Consultant</fullName>
+        <default>false</default>
+        <label>Industry Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inside Sales</fullName>
+        <default>false</default>
+        <label>Inside Sales - SDR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lenser &amp; Associates</fullName>
+        <default>false</default>
+        <label>Lenser &amp; Associates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Linkedin</fullName>
+        <default>false</default>
+        <label>LinkedIn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Campaigns</fullName>
+        <default>false</default>
+        <label>Marketing Campaigns</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MassBio Council</fullName>
+        <default>false</default>
+        <label>MassBio Council</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mobilo</fullName>
+        <default>false</default>
+        <label>Mobilo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OMNIA_Partners</fullName>
+        <default>false</default>
+        <label>OMNIA Partners (formerly CU)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Referral</fullName>
+        <default>false</default>
+        <label>Other Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PartnerTap</fullName>
+        <default>false</default>
+        <label>PartnerTap</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Private Equity</fullName>
+        <default>false</default>
+        <label>Private Equity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rocketrip</fullName>
+        <default>false</default>
+        <label>Rocketrip</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SalesHive</fullName>
+        <default>false</default>
+        <label>SalesHive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Self Generated</fullName>
+        <default>false</default>
+        <label>Self Generated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Serko (Zeno)</fullName>
+        <default>false</default>
+        <label>Serko (Zeno)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media Channel</fullName>
+        <default>false</default>
+        <label>Social Media Channel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spotnana</fullName>
+        <default>false</default>
+        <label>Spotnana</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SureWare/GraspPay</fullName>
+        <default>false</default>
+        <label>SureWare/GraspPay</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Troop</fullName>
+        <default>false</default>
+        <label>Troop</label>
+    </standardValue>
+    <standardValue>
+        <fullName>United</fullName>
+        <default>false</default>
+        <label>United</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Form</fullName>
+        <default>false</default>
+        <label>Web Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Form - TravelStack</fullName>
+        <default>false</default>
+        <label>Web Form - TravelStack</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web - Simon Chat</fullName>
+        <default>false</default>
+        <label>Web - Simon Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WorldGo Travel Management</fullName>
+        <default>false</default>
+        <label>WorldGo Travel Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZoomInfo</fullName>
+        <default>false</default>
+        <label>ZoomInfo</label>
+    </standardValue>
+</StandardValueSet>

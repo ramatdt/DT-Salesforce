@@ -1,0 +1,68 @@
+{
+  "appPageId" : "c5384ddd-2c91-46fc-90db-1f803594ca53",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "08ee8fae-2857-4281-91d5-404aefbe1d14",
+  "label" : "Survey",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "03303249-a017-4b6e-9d86-d489ce4637ee",
+          "columns" : [ {
+            "UUID" : "88b80e52-e2c6-454c-bacf-0e3dde2c3b74",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "03303249-a017-4b6e-9d86-d489ce4637ee",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:customerSatisSurvey",
+          "id" : "9aa456e8-37a8-4675-8cb6-d208ff16c23b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "88b80e52-e2c6-454c-bacf-0e3dde2c3b74",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8ee1a74a-d6b4-4807-879e-58691cc29d57",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Survey"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6ba3046c-9bda-44c8-8bb4-1a2e5eaf7d81",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "24483b21-e7f0-4bbf-a2b9-dd88096c0514",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "1Ndwjl4Vgla19afRFoeOfIVWimCj0F",
+  "type" : "view",
+  "viewType" : "custom-survey"
+}

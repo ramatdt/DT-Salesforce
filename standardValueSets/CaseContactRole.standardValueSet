@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Technical Contact</fullName>
+        <default>false</default>
+        <label>Technical Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Contact</fullName>
+        <default>false</default>
+        <label>Business Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Decision Maker</fullName>
+        <default>false</default>
+        <label>Decision Maker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ann Corbitt</fullName>
+        <default>false</default>
+        <label>Ann Corbitt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Anne Findlay-Gomes</fullName>
+        <default>false</default>
+        <label>Anne Findlay-Gomes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brian Robertson</fullName>
+        <default>false</default>
+        <label>Brian Robertson</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brigitte Emery</fullName>
+        <default>false</default>
+        <label>Brigitte Emery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Corinne Scollon</fullName>
+        <default>false</default>
+        <label>Corinne Scollon</label>
+    </standardValue>
+    <standardValue>
+        <fullName>David Wass</fullName>
+        <default>false</default>
+        <label>David Wass</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Debbie Parker</fullName>
+        <default>false</default>
+        <label>Debbie Parker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ian Race</fullName>
+        <default>false</default>
+        <label>Ian Race</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Joanell Clark</fullName>
+        <default>false</default>
+        <label>Joanell Clark</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Jonathan Rubin</fullName>
+        <default>false</default>
+        <label>Jonathan Rubin</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Josiane Anctil</fullName>
+        <default>false</default>
+        <label>Josiane Anctil</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Judith Davis</fullName>
+        <default>false</default>
+        <label>Judith Davis</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Kim Kobayashi</fullName>
+        <default>false</default>
+        <label>Kim Kobayashi</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Laura Lortie</fullName>
+        <default>false</default>
+        <label>Laura Lortie</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lora Sirizzotti</fullName>
+        <default>false</default>
+        <label>Lora Sirizzotti</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lynn Phillips</fullName>
+        <default>false</default>
+        <label>Lynn Phillips</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Margaret Greig</fullName>
+        <default>false</default>
+        <label>Margaret Greig</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marilyn Ramos</fullName>
+        <default>false</default>
+        <label>Marilyn Ramos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Merwyn Machado</fullName>
+        <default>false</default>
+        <label>Merwyn Machado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mia Boumansour</fullName>
+        <default>false</default>
+        <label>Mia Boumansour</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISADMIN</fullName>
+        <default>false</default>
+        <label>MISADMIN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nicole Guigui</fullName>
+        <default>false</default>
+        <label>Nicole Guigui</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paul Knickerbocker</fullName>
+        <default>false</default>
+        <label>Paul Knickerbocker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Stephen Smith</fullName>
+        <default>false</default>
+        <label>Stephen Smith</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tanya Monck</fullName>
+        <default>false</default>
+        <label>Tanya Monck</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tasha Young</fullName>
+        <default>false</default>
+        <label>Tasha Young</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vinka Masters</fullName>
+        <default>false</default>
+        <label>Vinka Masters</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sabrina Rocca</fullName>
+        <default>false</default>
+        <label>Sabrina Rocca</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brian Willett</fullName>
+        <default>false</default>
+        <label>Brian Willett</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OBT Support</fullName>
+        <default>false</default>
+        <label>OBT Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VTS Implementations</fullName>
+        <default>false</default>
+        <label>VTS Implementations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Team QC</fullName>
+        <default>false</default>
+        <label>Team QC</label>
+    </standardValue>
+</StandardValueSet>

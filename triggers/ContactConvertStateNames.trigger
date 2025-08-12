@@ -1,0 +1,70 @@
+trigger ContactConvertStateNames on Contact (before insert, before update) {
+    for( Contact a : Trigger.new ) {
+
+        if (!String.isBlank(a.MailingState)) {
+            if (a.MailingState.equalsIgnoreCase('Alabama')) a.MailingState = 'AL';
+            else if (a.MailingState.equalsIgnoreCase('Alaska')) a.MailingState =  'AK' ;
+            else if (a.MailingState.equalsIgnoreCase('Arizona')) a.MailingState =  'AZ' ;
+            else if (a.MailingState.equalsIgnoreCase('Arkansas')) a.MailingState =  'AR' ;
+            else if (a.MailingState.equalsIgnoreCase('California')) a.MailingState = 'CA' ;
+            else if (a.MailingState.equalsIgnoreCase('Colorado')) a.MailingState = 'CO' ;
+            else if (a.MailingState.equalsIgnoreCase('Connecticut')) a.MailingState = 'CT' ;
+            else if (a.MailingState.equalsIgnoreCase('Delaware')) a.MailingState = 'DE' ;
+            else if (a.MailingState.equalsIgnoreCase('Florida')) a.MailingState = 'FL' ;
+            else if (a.MailingState.equalsIgnoreCase('Georgia')) a.MailingState = 'GA' ;
+            else if (a.MailingState.equalsIgnoreCase('Hawaii')) a.MailingState = 'HI' ;
+            else if (a.MailingState.equalsIgnoreCase('Idaho')) a.MailingState = 'ID' ;
+            else if (a.MailingState.equalsIgnoreCase('Illinois')) a.MailingState = 'IL' ;
+            else if (a.MailingState.equalsIgnoreCase('Indiana')) a.MailingState = 'IN' ;
+            else if (a.MailingState.equalsIgnoreCase('Iowa')) a.MailingState = 'IA' ;
+            else if (a.MailingState.equalsIgnoreCase('Kansas')) a.MailingState = 'KS'; 
+            else if (a.MailingState.equalsIgnoreCase('Kentucky')) a.MailingState = 'KY'; 
+            else if (a.MailingState.equalsIgnoreCase('Louisiana')) a.MailingState = 'LA'; 
+            else if (a.MailingState.equalsIgnoreCase('Maine')) a.MailingState = 'ME' ;
+            else if (a.MailingState.equalsIgnoreCase('Maryland')) a.MailingState = 'MD'; 
+            else if (a.MailingState.equalsIgnoreCase('Massachusetts')) a.MailingState = 'MA' ;
+            else if (a.MailingState.equalsIgnoreCase('Michigan')) a.MailingState = 'MI' ;
+            else if (a.MailingState.equalsIgnoreCase('Minnesota')) a.MailingState = 'MN' ;
+            else if (a.MailingState.equalsIgnoreCase('Mississippi')) a.MailingState = 'MS' ;
+            else if (a.MailingState.equalsIgnoreCase('Missouri')) a.MailingState = 'MO' ;
+            else if (a.MailingState.equalsIgnoreCase('Montana')) a.MailingState = 'MT' ;
+            else if (a.MailingState.equalsIgnoreCase('Nebraska')) a.MailingState = 'NE' ;
+            else if (a.MailingState.equalsIgnoreCase('Nevada')) a.MailingState = 'NV' ;
+            else if (a.MailingState.equalsIgnoreCase('New Hampshire')) a.MailingState = 'NH' ;
+            else if (a.MailingState.equalsIgnoreCase('New Jersey')) a.MailingState = 'NJ' ;
+            else if (a.MailingState.equalsIgnoreCase('New Mexico')) a.MailingState = 'NM' ;
+            else if (a.MailingState.equalsIgnoreCase('New York')) a.MailingState = 'NY' ;
+            else if (a.MailingState.equalsIgnoreCase('North Carolina')) a.MailingState = 'NC' ;
+            else if (a.MailingState.equalsIgnoreCase('North Dakota')) a.MailingState = 'ND' ;
+            else if (a.MailingState.equalsIgnoreCase('Ohio')) a.MailingState = 'OH' ;
+            else if (a.MailingState.equalsIgnoreCase('Oklahoma')) a.MailingState = 'OK' ;
+            else if (a.MailingState.equalsIgnoreCase('Oregon')) a.MailingState = 'OR' ;
+            else if (a.MailingState.equalsIgnoreCase('Pennsylvania')) a.MailingState = 'PA' ;
+            else if (a.MailingState.equalsIgnoreCase('Rhode Island')) a.MailingState = 'RI' ;
+            else if (a.MailingState.equalsIgnoreCase('South Carolina')) a.MailingState = 'SC' ;
+            else if (a.MailingState.equalsIgnoreCase('South Dakota')) a.MailingState = 'SD' ;
+            else if (a.MailingState.equalsIgnoreCase('Tennessee')) a.MailingState = 'TN' ;
+            else if (a.MailingState.equalsIgnoreCase('Texas')) a.MailingState = 'TX' ;
+            else if (a.MailingState.equalsIgnoreCase('Utah')) a.MailingState = 'UT' ;
+            else if (a.MailingState.equalsIgnoreCase('Vermont')) a.MailingState = 'VT' ;
+            else if (a.MailingState.equalsIgnoreCase('Virginia')) a.MailingState = 'VA' ;
+            else if (a.MailingState.equalsIgnoreCase('Washington')) a.MailingState = 'WA' ;
+            else if (a.MailingState.equalsIgnoreCase('West Virginia')) a.MailingState = 'WV' ;
+            else if (a.MailingState.equalsIgnoreCase('Wisconsin')) a.MailingState = 'WI' ;
+            else if (a.MailingState.equalsIgnoreCase('Wyoming')) a.MailingState = 'WY' ;
+            else if (a.MailingState.equalsIgnoreCase('Ontario')) a.MailingState = 'ON' ;
+            else if (a.MailingState.equalsIgnoreCase('Quebec')) a.MailingState = 'QC' ;
+            else if (a.MailingState.equalsIgnoreCase('QuéBec')) a.MailingState = 'QC' ;
+            else if (a.MailingState.equalsIgnoreCase('British Columbia')) a.MailingState = 'BC' ;
+            else if (a.MailingState.equalsIgnoreCase('Alberta')) a.MailingState = 'AB' ;
+            else if (a.MailingState.equalsIgnoreCase('Manitoba')) a.MailingState = 'MB' ;
+            else if (a.MailingState.equalsIgnoreCase('Saskatchewan')) a.MailingState = 'SK' ;
+            else if (a.MailingState.equalsIgnoreCase('Nova Scotia')) a.MailingState = 'NS' ;
+            else if (a.MailingState.equalsIgnoreCase('New Brunswick')) a.MailingState = 'NB' ;
+            else if (a.MailingState.equalsIgnoreCase('Newfoundland And Labrador')) a.MailingState = 'NL' ;
+            else if (a.MailingState.equalsIgnoreCase('Prince Edward Island')) a.MailingState = 'PE' ;
+            else if (a.MailingState.equalsIgnoreCase('Northwest Territories')) a.MailingState = 'NT' ;
+            else if (a.MailingState.equalsIgnoreCase('Yukon')) a.MailingState = 'YT' ;
+            else if (a.MailingState.equalsIgnoreCase('Nunavut')) a.MailingState = 'NU' ;
+            }
+}}

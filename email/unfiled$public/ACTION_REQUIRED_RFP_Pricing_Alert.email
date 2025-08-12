@@ -1,0 +1,9 @@
+An RFP + Pricing has been requested by {!Opportunity.OwnerFullName}. 
+Opportunity Owner Email - {!Opportunity.OwnerEmail}
+Account Name - {!Opportunity.Account}
+Opportunity Record Type - {!Opportunity.RecordType}
+Opportunity Type - {!Opportunity.Type}
+Amount - {!Opportunity.Amount}
+Next Step - {!Opportunity.NextStep}
+With RFP? - {!Opportunity.With_RFP__c}
+Here's a link to the Opportunity for full details {!Opportunity.Link}

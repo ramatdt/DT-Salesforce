@@ -1,0 +1,22 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <meta content="text/html; charset=utf-8" /> 
+  <meta content="PowerPoint.Slide" name="ProgId" /> 
+  <meta content="Microsoft PowerPoint 15" name="Generator" /> 
+  <div style="language:en-US;line-height:90%;margin-top:10.0pt;margin-bottom:
+0pt;margin-left:.25in;text-indent:-.25in;text-align:left;direction:ltr;
+unicode-bidi:embed;mso-line-break-override:none;word-break:normal;punctuation-wrap:
+hanging">
+    Hi&nbsp;{{{Recipient.FirstName}}}, 
+   <br /> 
+   <br /> 
+   <br /> TODO: Add content of email 
+   <br /> 
+   <br /> 
+   <br /> If you would like to opt-out of Direct Travel Rate Assurance, contact your Account Manager.&nbsp; 
+  </div>
+ </body>
+</html>

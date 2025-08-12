@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CA_Meetings_Role_Access_to_Prospect</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Gives edit access to any Prospect Account type to those with CA Meetings Role</description>
+        <label>CA Meetings Role Access to Prospect</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>CA_Meetings_Events_Mgr</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Prospect Account,&quot;Prospect, Lost Client&quot;,Avenir Prospect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Clinical_Accounts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Clinic Trails Roles can Modify Clinical Accounts &amp; Contacts</description>
+        <label>Clinical Accounts</label>
+        <sharedTo>
+            <role>Clinical_Trials</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Clinical Client,Clinical Prospect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ME_Role_Access_to_Prospect_Accounts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Gives edit access to any Prospect Account type to those with M&amp;E Role</description>
+        <label>ME Role Access to Prospect Accounts</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Groups_M_E_Leader</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Prospect Account,&quot;Prospect, Lost Client&quot;,Avenir Prospect</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Account_Edit_Access_for_Sales_Operations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account Edit Access for Sales Operations</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Executive_Sales_Operations</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive_Sales</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DS_Records_with_Direct_Select_CA_AMs</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>DS Records with Direct Select CA AMs</label>
+        <sharedTo>
+            <group>Direct_Select_Canada_AMs</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Direct_Select_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Direct_Sales</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Direct Sales</label>
+        <sharedTo>
+            <group>Edit_Access_to_Accounts_Contacts_Case</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Direct_Select_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Exec_Sales_Enablement_with_Exec_Sales_Ops</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Exec Sales Enablement with Exec Sales Ops</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Executive_Sales_Operations</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive_Sales_Enablement</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Exec_Sales_Strategic_with_Exec_Sales_Ops</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Exec Sales Strategic with Exec Sales Ops</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Executive_Sales_Operations</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive_Sales_Strategic</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Executive_Account_Management_Owned_Records</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Executive - Account Management Owned Records</label>
+        <sharedTo>
+            <group>Sharing_Executive_Sales_Records</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Account_Management_Owned_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Executive_Sales_Records_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Executive Sales Records Sharing</label>
+        <sharedTo>
+            <group>Sharing_Executive_Sales_Records</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Executive_Sales_Owned_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Executive_Sales_Team_Shaing_to_Executive_Sales_Operations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>None</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>This sharing rule ensures the Executive SalesStrategic team is sharing Accounts and contacts to Executive Sales operations.</description>
+        <label>Executive Sales Team Shaing to Executive Sales Operations</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Executive_Sales_Operations</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Executive_Sales_Strategic</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Operations_Support_Leader_to_Clinical_Trials</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Share Operations Support Leader to Clinical Trials</label>
+        <sharedTo>
+            <role>Clinical_Trials</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Operations_Support_Leader</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

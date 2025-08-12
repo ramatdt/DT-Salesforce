@@ -1,0 +1,3 @@
+Contact Owner: {!Contact.OwnerFullName} 
+		    Email: {!Contact.Email} 
+                    Account Name: {!Account.Name}

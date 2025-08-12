@@ -1,0 +1,12 @@
+<template>
+    <template lwc:if={renderSpinner}>
+        <lightning-spinner
+            alternative-text="Loading..." variant="brand">
+        </lightning-spinner>
+    </template>    
+    <template lwc:if={renderError}>
+        <div class="slds-box slds-theme_shade slds-text-align_center">
+            <strong>{errorMessage}</strong>
+       </div>
+    </template>
+</template>

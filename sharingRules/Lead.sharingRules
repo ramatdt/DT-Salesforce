@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Executive_Account_Management_Owned_Records</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Executive - Account Management Owned Records</label>
+        <sharedTo>
+            <group>Sharing_Executive_Sales_Records</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Account_Management_Owned_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Executive_Sales_Records_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Executive Sales Records Sharing</label>
+        <sharedTo>
+            <group>Sharing_Executive_Sales_Records</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Executive_Sales_Owned_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Saleshive</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Integrated Saleshive User Records</description>
+        <label>Saleshive</label>
+        <sharedTo>
+            <role>Sales_Administrator</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Saleshive_User</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

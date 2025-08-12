@@ -1,0 +1,7 @@
+Contact Owner: {!Contact.OwnerFullName}
+Email: {!Contact.Email}
+Type: {!Account.Type}
+Account Name: {!Account.Name}
+Account Number: {!Account.Number} 
+Travel Survey Opt-Out: {!Account.Travel_Survey_Opt_Out__c}
+Salesforce Account ID: {!Account.COPY_SF_Account_ID__c}

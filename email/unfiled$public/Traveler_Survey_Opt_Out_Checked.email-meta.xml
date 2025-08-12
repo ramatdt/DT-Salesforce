@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Checked = company does NOT want their travelers to receive DT survey</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Traveler Survey Opt-Out Checked</name>
+    <style>none</style>
+    <subject>SALESFORCE NOTICE: Please De-activate client and do NOT send DT Traveler Surveys</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

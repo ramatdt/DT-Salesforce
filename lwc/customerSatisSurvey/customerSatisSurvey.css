@@ -1,0 +1,53 @@
+/**
+ * Created by zacox on 3/10/24.
+ */
+
+:host .recoBttn {
+    --slds-c-button-radius-border: 0%;
+   --lwc-spacingXxSmall: 0px;
+}
+
+:host .mobileRecoBttn {
+    --slds-c-button-radius-border: 100%;
+    --lwc-spacingXxSmall: 0px;
+}
+
+.buttonGroup button {
+    height: 50px;
+}
+
+.mobileButtonGroup button {
+    height: 44px;
+    width: 44px;
+}
+
+.mobileLikelyTxt {
+    font-size: .75rem;
+    color: #626262;
+}
+
+.buttonGroup2 {
+    margin-left: 28px;
+}
+
+.dtBrandedBttn {
+    background-color: #6ACAD8;
+    border-color: #6ACAD8;
+}
+
+.dtBrandedBttn:hover {
+    background-color: #5398a2;
+    border-color: #6ACAD8;
+}
+
+.optionalFeedbackBox {
+    height: 65px;
+    width: 100%;
+    border: 1px solid #6ACAD8;
+    background-color: #6ACAD8;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

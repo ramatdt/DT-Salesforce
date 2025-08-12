@@ -1,0 +1,9 @@
+Account Name: {!Account.Name}
+
+Type: {!Account.Type}
+
+Crisis24: {!Account.Crisis24_GardaWorld__c}
+
+Crisis24 Contract ID: {!Account.Crisis24_Contract_ID__c}
+
+Link to your SF Account Record: {!Account.Link}

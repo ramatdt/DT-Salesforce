@@ -1,0 +1,17 @@
+We have received a Verbal Award for {!Opportunity.Account}
+
+Opportunity Name:  {!Opportunity.Name}
+
+Opportunity Record Type:  {!Opportunity.RecordType}
+
+Opportunity Owner:  {!Opportunity.OwnerFullName}
+
+Opportunity Amount:  {!Opportunity.Amount}
+
+Opportunity Close Date:  {!Opportunity.CloseDate}
+
+{!Opportunity.Link}
+
+Email Sent to:
+User:  imsupport@dt.com
+salesforcesupport@dt.com

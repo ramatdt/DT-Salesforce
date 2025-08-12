@@ -1,0 +1,68 @@
+{
+  "appPageId" : "afc03861-0950-4101-8f03-46e3dda117af",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "0756e445-d8c4-494b-ae5f-797ae6b09761",
+  "label" : "Enquête",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "72132e5f-db31-4434-9f20-d7ab4bbb9f9e",
+          "columns" : [ {
+            "UUID" : "477d4aa6-564a-44a8-b3a6-95c4af21eeea",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "72132e5f-db31-4434-9f20-d7ab4bbb9f9e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:customerSatisSurvey",
+          "id" : "dd0f9af9-8240-41f7-86c2-d15486f46246",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "477d4aa6-564a-44a8-b3a6-95c4af21eeea",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "abc571f1-b0ac-40b0-95a9-b643c51b7489",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Enquête"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e53f98a8-009f-43f9-860a-a7dd6fcdd354",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "170e375b-07bc-4deb-9f6d-3b169160c6c1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "hOchB0JYpBdSdn4jaC8gmN910COB2k",
+  "type" : "view",
+  "viewType" : "custom-enqute"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Oppty_Stage_Verbal_Imp_Emal_Alert</name>
+        <label>Oppty Stage Verbal Imp Emal Alert</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>Opportunity.Oppty_Stage_Verbal_Implementation_Email_Alert</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Oppty_Stage_Verbal_Implementation_Email_Alert</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>Non Existing Oppty Type, Stage updated to Verbal, email alert sent to Implementation</description>
+    <environments>Default</environments>
+    <interviewLabel>Oppty Verbal Stage Update Implementation Email Alert {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Oppty Verbal Stage Update Implementation Email Alert</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Oppty_Stage_Verbal_Imp_Emal_Alert</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>1 AND (2 OR 3 OR 4 OR 5)</filterLogic>
+        <filters>
+            <field>StageName</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>VOC / Verbal</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>COPY_Opportunity_Record_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Avenir - Global Business</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>COPY_Opportunity_Record_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Avenir - Sales New Business</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>COPY_Opportunity_Record_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Global Business</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>COPY_Opportunity_Record_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Sales - New Business</stringValue>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

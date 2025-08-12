@@ -1,0 +1,32 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-family:Georgia,serif;"><span style="font-size:11pt">Dear {{{Recipient.FirstName}}},</span><br />
+<br />
+<span style="font-size:11pt">At Direct Travel, we designed a Travel Management Company that would be able to pivot and stay financially secure in such a tumultuous time as this, with a plan that not only protects our Clients but our TMC and our employees as well.</span><br />
+<br />
+<span style="font-size:11pt">Times like this define what is important. Our approach demonstrates that if selected to be {{{Recipient.Account_Name__c}}}'s TMC, you will find a place where you will be provided with:</span></span>
+<ul>
+	<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt"><b>Traveler Safety &amp; Wellness</b> – Direct Travel’s <a href="https://www.dt.com/traveler-information/" style="color:#0563c1; text-decoration:underline">online resource hub</a> addresses the latest complex travel requirements in concert with our proactive risk management solutions and presents the 3 C’s of traveler safety: Consultative, Comprehensive and Consistent, to provide you with;</span></span>
+	<ul style="list-style-type:circle">
+		<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt">Access to traveler mapping dashboard</span></span></li>
+		<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt">Traveler advisory expertise and assistance</span></span></li>
+		<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt">Traveler wellness information</span></span></li>
+	</ul>
+	</li>
+	<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt"><b>Pre-Trip Reporting</b> – Safety protocols starting when leaving the house until return&nbsp; - build’s trust that the company has their back.</span></span></li>
+	<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt"><b>Traveler Tracking</b> – Accurate data and streamlined dashboard reporting,&nbsp; 24 X 7 traveler support.</span></span></li>
+	<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt"><b>Unused Tickets</b> – Automated unused ticket management – eliminate the concern of losing accrued ticket value by transitioning to&nbsp; a new TMC.</span></span></li>
+	<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt"><b>Direct Travel Industry Leverage</b> – For small to mid-sized businesses in particular, it is important to find a TMC partner that can utilize their position in the marketplace to provide leverage for your travel program. Direct Travel’s buying power and strong supplier relationships allow us to negotiate and consistently deliver competitive and flexible discounts, amenities and perks to our clients.</span></span>
+	<ul style="list-style-type:circle">
+		<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt">Discounts of up to 18 percent on air travel, up to 40 percent discount on hotels, and up to 8 percent savings on car rentals</span></span></li>
+		<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt">Price assurance</span></span></li>
+		<li class="MsoNoSpacing"><span style="font-family:Georgia,serif;"><span style="font-size:11pt">Executive presence on multiple travel supplier boards</span></span></li>
+	</ul>
+	</li>
+</ul>
+<span style="font-family:Georgia,serif;"><span style="font-size:11pt">Please contact me if you are interested in a phone meeting. Stay safe, healthy and well. <b>And be prepared for take-off! </b></span><br />
+<br />
+<span style="font-size:11pt">My best,</span><br />
+<br />
+<span style="font-size:11pt">{{{Sender.Signature}}}</span></span></body></html>

@@ -1,0 +1,10 @@
+Hi Everyone,
+
+Please don't mark an Opportunity as Closed Won in Salesforce until you have a contact (SIGNED) by both parties.
+
+If you receive a Verbal, please enter "Verbal received" in the Next Step field on the Opportunity record. Then, when you have the signed contract, mark the Opportunity as Closed Won and edit the Next Step field to indicate start of  implementation or other next steps that will be taken.
+
+Thanks,
+
+Madeline Krazit
+Salesforce Administrator

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Share_Questions_with_ENG_Site_User</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Questions with ENG Site User</label>
+        <sharedTo>
+            <guestUser>ENG_Survey</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Legacy_SurveyQuestion_Id__c</field>
+            <operation>equals</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Share_Questions_with_French_Site_User</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Questions with French Site User</label>
+        <sharedTo>
+            <guestUser>Enquete_FR_CA</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Legacy_SurveyQuestion_Id__c</field>
+            <operation>equals</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>
