@@ -1,0 +1,13 @@
+Congratulations!  
+
+This is an automated notification that an Avenir Opportunity was been Won.
+
+Opportunity Record Type:  {!Opportunity.RecordType}
+
+Opportunity Name:  {!Opportunity.Name}
+
+Opportunity Close Date:  {!Opportunity.CloseDate}
+
+Amount: {!Opportunity.Amount}  Currency: {!Opportunity.CurrencyIsoCode}
+
+{!Opportunity.Link}

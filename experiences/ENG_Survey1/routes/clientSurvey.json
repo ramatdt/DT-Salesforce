@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "ed2cc2c3-6e2a-407d-bbe3-79a43621e849",
+  "appPageId" : "c5384ddd-2c91-46fc-90db-1f803594ca53",
+  "configurationTags" : [ ],
+  "devName" : "ClientSurveyENG__c",
+  "id" : "7ff85617-89de-4ca9-bec5-e275cd78212a",
+  "label" : "Client Survey",
+  "pageAccess" : "Public",
+  "routeType" : "custom-client-survey-eng",
+  "type" : "route",
+  "urlPrefix" : "client-survey"
+}

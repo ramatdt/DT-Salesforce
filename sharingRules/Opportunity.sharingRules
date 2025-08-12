@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Direct_Select_Records</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Direct Select Records</label>
+        <sharedTo>
+            <group>Edit_Access_to_Accounts_Contacts_Case</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Direct_Select_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Edit_Oppty_AM_Owned</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>All Account Manangement owned open Opportunities can be edited</description>
+        <label>Edit Oppty AM Owned</label>
+        <sharedTo>
+            <role>Customer_Success_US_Leader</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Account_Management_Owned_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Executive_Account_Management_Owned_Records</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Executive - Account Management Owned Records</label>
+        <sharedTo>
+            <group>Sharing_Executive_Sales_Records</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Account_Management_Owned_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Executive_Sales_Records_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Executive Sales Records Sharing</label>
+        <sharedTo>
+            <group>Sharing_Executive_Sales_Records</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Executive_Sales_Owned_Records</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Opportunity_Edit_Access_for_Sales_Operations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This sharing rule ensures Executive-Sales Operation are having access to</description>
+        <label>Opportunity Edit Access for Sales Operations</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Executive_Sales_Operations</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive_Sales</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Opportunity_Edit_Access_for_Sales_Operations_Executive_Sales_Enablement</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This sharing rule ensures the opportunity records owned by Executive-Sales Enablement to Executive - Sales operations and subordinates.</description>
+        <label>Opportunity Edit Access for Sales Operations-Executive Sales Enablement</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Executive_Sales_Operations</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive_Sales_Enablement</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,19 @@
+Hi Everyone,
+
+We are conducting a client list clean-up in Salesforce and need your assistance with insuring that the data for specific fields is completed on your client records.  
+
+Click on the Accounts tab. In the view window, select this view "East Region - Data Quality - Field Check" and click GO.  Please complete the fields that are missing on your client records. The fields include:
+
+Client - Overall Rating
+Ops Owner (Operations Owner)
+GDS System
+Online Booking Tool
+Service Configuration
+Contract Start Date
+Contract Term
+Contract End Date
+
+Thanks,
+
+Madeline Krazit
+Salesforce Administrator

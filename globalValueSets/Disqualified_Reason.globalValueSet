@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ATPI or Global</fullName>
+        <default>false</default>
+        <label>ATPI or Global</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance and Regulatory Issues</fullName>
+        <default>false</default>
+        <label>Compliance and Regulatory Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Marine/Energy/Pharmaceutical</fullName>
+        <default>false</default>
+        <label>Marine/Energy/Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>Deleted Account – Company No Longer Exists</fullName>
+        <default>false</default>
+        <label>Deleted Account – Company No Longer Exists</label>
+    </customValue>
+    <customValue>
+        <fullName>DNC – Under Size</fullName>
+        <default>false</default>
+        <label>DNC – Under Size</label>
+    </customValue>
+    <customValue>
+        <fullName>No Travel Need</fullName>
+        <default>false</default>
+        <label>No Travel Need</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Involved in Travel Decision</fullName>
+        <default>false</default>
+        <label>Not Involved in Travel Decision</label>
+    </customValue>
+    <customValue>
+        <fullName>No Longer with Company</fullName>
+        <default>false</default>
+        <label>No Longer with Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Relationship</fullName>
+        <default>false</default>
+        <label>Relationship</label>
+    </customValue>
+    <description>Picklist of reasons why a lead or contact is disqualified from further action by sales.</description>
+    <masterLabel>Disqualified Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

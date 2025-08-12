@@ -1,0 +1,22 @@
+*****
+
+Direct Travel Account Manager - 
+
+Your customer has a contract with a COLA Clause and the annual effective date is approaching within the next 90 days.  Please begin conversations with your client about implementing the COLA increase to be effective on the date listed below.
+ 
+Account Record Type: {!Account.Type}
+
+Account Name: {!Account.Name}
+
+COLA Annual Effective Date: {!Account.COLA_Annual_Effective_Date__c}
+
+COLA Index: {!Account.COLA_Index__c}
+
+COLA Increase Percentage Notes (if documented in SF) - {!Account.COLA_Increase_Percentage__c}
+
+Link to your SF Account Record: {!Account.Link}
+
+
+This is an automated email to notify you that your immediate action is required.
+
+**REMINDER** When implementing an increase as noted on the contract, please fill out the Workflow form to notify finance and input the actual increase percentage.

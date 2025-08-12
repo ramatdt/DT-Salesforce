@@ -1,0 +1,180 @@
+<!--
+ - Created by zacox on 3/10/24.
+ -->
+
+<!-- Customer Satis Survey -->
+<template>
+    <div class="slds-grid slds-grid_align-center slds slds-wrap slds-p-bottom_large slds-border_left slds-border_right slds-border_bottom" style="background: white;">
+        <div class="slds-col slds-size_1-of-1 slds-grid_align-center " >
+            <img src={surveyHeader} style="width: 100%;">
+        </div>
+        <template if:true={_showSpinner}>
+            <lightning-spinner
+                alternative-text="Loading..." variant="brand">
+            </lightning-spinner>
+        </template>
+        <template if:false={_showSpinner}>
+            <div if:true={showHeader} class={headerClassList} >
+                <span class="slds-text-heading_large">
+                    <strong>{titleText}</strong>
+                </span>
+            </div>
+            <template if:true={showNPS}>
+                <div if:false={isMobileFormFactor} class="slds-col slds-size_7-of-8 slds-grid_align-center" >
+                    <span class="slds-text-heading_medium">
+                        {likelyToRecoText}
+                    </span>
+                </div>
+                <div if:true={isMobileFormFactor} class="slds-col slds-size_7-of-8 slds-grid_align-center slds-text-align_center" >
+                    <span class="slds-text-heading_medium slds-text-align_center">
+                        {likelyToRecoText}
+                    </span>
+                </div>
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center slds-m-top_large " >
+                    <div if:false={isMobileFormFactor} class="buttonGroup slds-size_1-of-1 slds-grid slds-gutters_none">
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="0" value="0">0</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="1" value="1">1</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="2" value="2">2</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="3" value="3">3</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="4" value="4">4</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="5" value="5">5</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="6" value="6">6</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="7" value="7">7</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="8" value="8">8</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="9" value="9">9</button>
+                        <button class="slds-col slds-button slds-button_neutral slds-button_stretch recoBttn" onclick={handleRecommendClick} data-index="10" value="10">10</button>
+                    </div>
+                    <div if:true={isMobileFormFactor} class="mobileButtonGroup slds-size_1-of-1 slds-grid slds-grid_align-spread">
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="0" value="0">0</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="1" value="1">1</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="2" value="2">2</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="3" value="3">3</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="4" value="4">4</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="5" value="5">5</button>
+                    </div>
+                    <div if:true={isMobileFormFactor} class="mobileButtonGroup buttonGroup2 slds-size_1-of-1 slds-grid slds-grid_align-spread slds-m-top_x-small">
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="6" value="6">6</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="7" value="7">7</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="8" value="8">8</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="9" value="9">9</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn" onclick={handleRecommendClick} data-index="10" value="10">10</button>
+                        <button class="slds-col slds-button slds-button_neutral mobileRecoBttn slds-hidden" data-index="11" value="11">11</button>
+                    </div>
+                    <div if:false={isMobileFormFactor} class="slds-m-top_xxx-small slds-m-horizontal_small">
+                        <span class="slds-text-heading_small">
+                            {notLikelyText}
+                        </span>
+                            <span class="slds-text-heading_small slds-float_right">
+                            {likelyText}
+                        </span>
+                    </div>
+                    <div if:true={isMobileFormFactor} class="slds-m-top_xxx-small slds-m-horizontal_small">
+                        <span class="mobileLikelyTxt">
+                            0-Not Likely
+                        </span>
+                        <span class="mobileLikelyTxt slds-float_right">
+                            10-Very Likely
+                        </span>
+                    </div>
+                </div>
+
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center slds-m-top_large">
+                    <button
+                        type="submit"
+                        class="slds-button slds-button_brand slds-button_stretch dtBrandedBttn"
+                        onclick={handleSubmitClick}
+                        style="height: 50px;"
+                    >{submitText}</button>
+                </div>
+            </template>
+            <template if:true={_showOptionalSection}>
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center slds-m-bottom_large" >
+                    <div class="optionalFeedbackBox slds-text-heading_medium">
+                        {optionalFeedbackHeaderText}
+                    </div>
+                </div>
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center" >
+                    <span class="slds-text-heading_medium">
+                        {otherCommentsTxt}
+                    </span>
+                </div>
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center slds-m-top_large" >
+                    <lightning-textarea
+                        name="otherCommentsArea"
+                        value={otherComments}
+                        onchange={handleCommentsChange}
+                        placeholder={otherCommentsPlaceholder}
+                        variant="label-hidden"
+                        label=""
+                    ></lightning-textarea>
+                </div>
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center slds-m-top_large" >
+                    <span class="slds-text-heading_medium">
+                        {infoText}
+                    </span>
+                </div>
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center slds-m-top_large" >
+                   <lightning-input
+                        name="name"
+                        label={nameLabel}
+                        value={name}
+                        onchange={handleNameChange}
+                        variant="label-hidden"
+                        type="text"
+                        placeholder={namePlaceholder}
+                   ></lightning-input>
+                </div>
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center slds-m-top_small" >
+                    <lightning-input
+                        data-name="email"
+                        label={emailLabel}
+                        value={email}
+                        onchange={handleEmailChange}
+                        variant="label-hidden"
+                        type="email"
+                        placeholder={emailPlaceholder}
+                    ></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-grid slds-grid_align-center slds-m-top_large" >
+                    <div class="slds-col slds-size_7-of-8 slds-text-align_left slds-show_inline" style="display: flex;">
+                        <lightning-input
+                            data-name="data-protection-checkbox"
+                            type="checkbox"
+                            label={dataProtectionLabel}
+                            onchange={handleDataProtectionChange}
+                            variant="label-hidden"
+                            required={requireDataProtection}
+                        ></lightning-input>
+                        <span class="slds-text-heading_medium slds-m-left_small">
+                            {dataProtectionText}
+                            <a href={privacyPolicyLink} target="_blank">{privacyPolicyLinkText}</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="slds-col slds-size_7-of-8 slds-grid_align-center slds-m-top_large">
+                    <button
+                        class="slds-button slds-button_brand slds-button_stretch dtBrandedBttn"
+                        onclick={handleOptionalSubmitClick}
+                        style="height: 50px;"
+                    >{optionalSubmitText}</button>
+                </div>
+            </template>
+        </template>
+        <template if:true={showThankYou}>
+            <div class="slds-col slds-size_1-of-1 slds-grid_align-center slds-text-align_center slds-m-vertical_xx-large" >
+                <span class="slds-text-heading_large">
+                    <strong>{thankYouText}</strong>
+                </span>
+                <br>
+                <span class="slds-text-heading_large">
+                    <strong>{thankYouSubText}</strong>
+                </span>
+                <span if:true={thankYouSubText2} class="slds-text-heading_large">
+                    <br>
+                    <strong>{thankYouSubText2}</strong>
+                </span>
+            </div>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,19 @@
+Hi {!Opportunity.OwnerFirstName},
+
+Congratulations on winning an Opportunity.
+
+Opportunity Name:  {!Opportunity.Name}
+
+This is a friendly reminder to complete this process by updating the information in Smartsheet.
+
+Here is the link:
+
+https://app.smartsheet.com/b/form/5271a41b8bd04ca6a864799048ca21df
+
+
+Thanks so much,
+
+Susan Barnes
+Managing Director, Hotel Consulting
+ 
+email: sbarnes@dt.com cell: (678) 230-1650

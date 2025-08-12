@@ -1,0 +1,137 @@
+<template>
+    <lightning-card title="Client Volume Summary" icon-name="standard:account">
+        <div class="slds-p-around_medium">
+
+            <!-- Spinner -->
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading..." size="medium"></lightning-spinner>
+            </template>
+
+            <!-- Error message -->
+            <template if:true={error}>
+                <div class="slds-text-color_error slds-m-bottom_medium">
+                    An error occurred while loading data. Please try again later.
+                </div>
+            </template>
+
+            <!-- Year selector -->
+            <lightning-combobox
+                label="Select Year"
+                value={selectedYear}
+                options={yearOptions}
+                onchange={handleYearChange}
+                disabled={isComboboxDisabled}>
+            </lightning-combobox>
+
+            <!-- Current year data -->
+            <template if:true={showCurrentYear}>
+                <lightning-accordion allow-multiple-sections-open active-section-name="">
+                    <lightning-accordion-section name="currentCore" label={currentCoreLabel}>
+                        <div class="slds-box">
+                            <div class="slds-p-around_small slds-grid slds-wrap">
+                                <template for:each={currentCoreFields} for:item="field">
+                                    <div key={field.label} class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+                                        <div class="slds-text-body_regular">
+                                            <template if:true={field.label}>
+                                                <span class="slds-text-title">{field.label}:&nbsp;&nbsp;</span>
+                                                <template if:true={field.currencyCode}>
+                                                    <span class="slds-text-title">{field.currencyCode}&nbsp;</span>
+                                                </template>
+                                                <lightning-formatted-number
+                                                    value={field.value}
+                                                    minimum-fraction-digits="0"
+                                                    maximum-fraction-digits="0"
+                                                    format-style="decimal">
+                                                </lightning-formatted-number>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </lightning-accordion-section>
+
+                    <lightning-accordion-section name="currentAvenir" label={currentAvenirLabel}>
+                        <div class="slds-box">
+                            <div class="slds-p-around_small slds-grid slds-wrap">
+                                <template for:each={currentAvenirFields} for:item="field">
+                                    <div key={field.label} class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+                                        <div class="slds-text-body_regular">
+                                            <template if:true={field.label}>
+                                                <span class="slds-text-title">{field.label}:&nbsp;&nbsp;</span>
+                                                <template if:true={field.currencyCode}>
+                                                    <span class="slds-text-title">{field.currencyCode}&nbsp;</span>
+                                                </template>
+                                                <lightning-formatted-number
+                                                    value={field.value}
+                                                    minimum-fraction-digits="0"
+                                                    maximum-fraction-digits="0"
+                                                    format-style="decimal">
+                                                </lightning-formatted-number>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </lightning-accordion-section>
+                </lightning-accordion>
+            </template>
+
+            <!-- Previous year data -->
+            <template if:true={showPreviousYear}>
+                <lightning-accordion allow-multiple-sections-open active-section-name="" class="slds-m-top_medium">
+                    <lightning-accordion-section name="previousCore" label={previousCoreLabel}>
+                        <div class="slds-box">
+                            <div class="slds-p-around_small slds-grid slds-wrap">
+                                <template for:each={previousCoreFields} for:item="field">
+                                    <div key={field.label} class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+                                        <div class="slds-text-body_regular">
+                                            <template if:true={field.label}>
+                                                <span class="slds-text-title">{field.label}:&nbsp;&nbsp;</span>
+                                                <template if:true={field.currencyCode}>
+                                                    <span class="slds-text-title">{field.currencyCode}&nbsp;</span>
+                                                </template>
+                                                <lightning-formatted-number
+                                                    value={field.value}
+                                                    minimum-fraction-digits="0"
+                                                    maximum-fraction-digits="0"
+                                                    format-style="decimal">
+                                                </lightning-formatted-number>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </lightning-accordion-section>
+
+                    <lightning-accordion-section name="previousAvenir" label={previousAvenirLabel}>
+                        <div class="slds-box">
+                            <div class="slds-p-around_small slds-grid slds-wrap">
+                                <template for:each={previousAvenirFields} for:item="field">
+                                    <div key={field.label} class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+                                        <div class="slds-text-body_regular">
+                                            <template if:true={field.label}>
+                                                <span class="slds-text-title">{field.label}:&nbsp;&nbsp;</span>
+                                                <template if:true={field.currencyCode}>
+                                                    <span class="slds-text-title">{field.currencyCode}&nbsp;</span>
+                                                </template>
+                                                <lightning-formatted-number
+                                                    value={field.value}
+                                                    minimum-fraction-digits="0"
+                                                    maximum-fraction-digits="0"
+                                                    format-style="decimal">
+                                                </lightning-formatted-number>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </lightning-accordion-section>
+                </lightning-accordion>
+            </template>
+        </div>
+    </lightning-card>
+</template>

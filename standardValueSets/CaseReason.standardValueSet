@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>After-hours</fullName>
+        <default>false</default>
+        <label>After-hours</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Churning (or Airline Monthly Memo)</fullName>
+        <default>false</default>
+        <label>Churning (or Airline Monthly Memo)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Commission Recall</fullName>
+        <default>false</default>
+        <label>Commission Recall</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>DT Accounting</fullName>
+        <default>false</default>
+        <label>DT Accounting</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Experience</fullName>
+        <default>false</default>
+        <label>Experience</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Form of Payment</fullName>
+        <default>false</default>
+        <label>Form of Payment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Itinerary</fullName>
+        <default>false</default>
+        <label>Itinerary</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Name</fullName>
+        <default>false</default>
+        <label>Name</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quality</fullName>
+        <default>false</default>
+        <label>Quality</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund Error</fullName>
+        <default>false</default>
+        <label>Refund Error</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>SABRE</fullName>
+        <default>false</default>
+        <label>SABRE</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Seats</fullName>
+        <default>false</default>
+        <label>Seats</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ticketing (Missed)</fullName>
+        <default>false</default>
+        <label>Ticketing (Missed)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Price/Fare/Rate</fullName>
+        <default>false</default>
+        <label>Price/Fare/Rate</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Wrong Date/Time/City</fullName>
+        <default>false</default>
+        <label>Wrong Date/Time/City</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor</fullName>
+        <default>false</default>
+        <label>Vendor</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Information Only</fullName>
+        <default>false</default>
+        <label>Information Only</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>_Ticketing</fullName>
+        <default>false</default>
+        <label>_Ticketing</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

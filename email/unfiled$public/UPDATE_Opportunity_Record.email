@@ -1,0 +1,21 @@
+Hi Everyone,
+
+Just a note to let you know that some changes have been made on the Opportunity record.
+
+Field: Opportunity Name 
+
+This has always been a required field (and still is). However, now you only need to enter one letter in the field. Then, when you save the record, the Opportunity Name will automatically populate for you using this naming convention: Account Name - New Business 2016. This change does not apply to the Opportunity record type for Existing Clients. You will still need to enter the Opportunity Name and follow this naming convention - Account Name - Type of Opportunity (i.e. Rebid 2016). 
+
+Field: With RFP?
+
+This is a picklist field. The three choices are: None, Formal RFP Response, and Proposal / Pricing Only.  Now, when you select "Formal RFP Response," an email will immediately be sent automatically for you to Amanda Wesley and Selin Incedayi alerting them of the RFP. When you select "Proposal / Pricing Only" an email will immediately be sent automatically for you to Amanda and Selin alerting them to your Proposal / Pricing request. They will follow-up with you accordingly.
+
+If you have any questions about these changes, please feel free to reach out to me or Gina Zappa. 
+
+Thanks,
+
+Madeline Krazit
+mkrazit@dt.com
+
+Gina Zappa
+gzappa@dt.com

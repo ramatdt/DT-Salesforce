@@ -1,0 +1,4931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Case</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Case_CR</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <businessProcesses>
+        <fullName>US CSI</fullName>
+        <description>US CSI</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progess</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>V2K Case Management</fullName>
+        <description>User list for V2K Case Management (formerly VisionAction)</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Log</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Client Traveler Survey</fullName>
+        <description>For Cases autogenerated from Traveler Survey Low NPS Score (0, 1, or 2)</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progess</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Online Booking Tool Support</fullName>
+        <description>Online Booking Tool users calling or emailing for support on the toolsOnline Booking Tool Support</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progess</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Log</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses>
+    <compactLayouts>
+        <fullName>Client_Traveler_Survey_Case</fullName>
+        <fields>CaseNumber</fields>
+        <fields>RecordTypeId</fields>
+        <fields>AccountId</fields>
+        <fields>OwnerId</fields>
+        <fields>Account_Owner__c</fields>
+        <fields>Ops_Owner__c</fields>
+        <fields>Res_Center_Booking_Office__c</fields>
+        <fields>Status</fields>
+        <label>Client Traveler Survey Case</label>
+    </compactLayouts>
+    <fields>
+        <fullName>PNR__c</fullName>
+        <externalId>false</externalId>
+        <label>PNR</label>
+        <length>26</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolve__c</fullName>
+        <label>Resolve</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>At_Fault__c</fullName>
+        <label>At Fault</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Client</fullName>
+                    <default>false</default>
+                    <label>Client</label>
+                </value>
+                <value>
+                    <fullName>Direct24</fullName>
+                    <default>false</default>
+                    <label>Direct24</label>
+                </value>
+                <value>
+                    <fullName>DT - Shared Services</fullName>
+                    <default>false</default>
+                    <label>DT - Shared Services</label>
+                </value>
+                <value>
+                    <fullName>DT US Core</fullName>
+                    <default>false</default>
+                    <label>DT - US Core</label>
+                </value>
+                <value>
+                    <fullName>Goodwill</fullName>
+                    <default>false</default>
+                    <label>Goodwill</label>
+                </value>
+                <value>
+                    <fullName>Info Only</fullName>
+                    <default>false</default>
+                    <label>Info Only</label>
+                </value>
+                <value>
+                    <fullName>Other After-hours Provider</fullName>
+                    <default>false</default>
+                    <label>Other After-hours Provider</label>
+                </value>
+                <value>
+                    <fullName>Vendor</fullName>
+                    <default>false</default>
+                    <label>Vendor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Due_Date__c</fullName>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OBT_Site__c</fullName>
+        <label>OBT Site</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Concur</fullName>
+                    <default>false</default>
+                    <label>Concur</label>
+                </value>
+                <value>
+                    <fullName>Nutravel</fullName>
+                    <default>false</default>
+                    <label>Nutravel</label>
+                </value>
+                <value>
+                    <fullName>Get There</fullName>
+                    <default>false</default>
+                    <label>Get There</label>
+                </value>
+                <value>
+                    <fullName>INNfinity</fullName>
+                    <default>false</default>
+                    <label>INNfinity</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ops_Owner__c</fullName>
+        <description>The Ops Owner field is populated from the Ops Owner field on the related Account for a Client Traveler Survey case. This is autogenerated through Flow.</description>
+        <externalId>false</externalId>
+        <label>Ops Owner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Agent_Code__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the agent name OR Goodwill GDW, Vendor VDR, Direct24 D24, Other After-hours AFT, Info Only INF, Online Booking OBT, Mid-office MDO,  IRD - int&apos;l rate desk, SSS - Shared Services, ARC, CLT - Client, ARR - Arranger.</inlineHelpText>
+        <label>Agent Name</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Caller_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Caller name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Reason__c</fullName>
+        <label>Case Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Mgmt.</fullName>
+                    <default>false</default>
+                    <label>Account Mgmt.</label>
+                </value>
+                <value>
+                    <fullName>ADMs (Airline Debit Memo&apos;s)</fullName>
+                    <default>false</default>
+                    <label>ADMs (Airline Debit Memo&apos;s)</label>
+                </value>
+                <value>
+                    <fullName>Auto Ticketing</fullName>
+                    <default>false</default>
+                    <label>Auto Ticketing</label>
+                </value>
+                <value>
+                    <fullName>CETAS Approval</fullName>
+                    <default>false</default>
+                    <label>CETAS Approval</label>
+                </value>
+                <value>
+                    <fullName>Client Communications</fullName>
+                    <default>false</default>
+                    <label>Client Communications</label>
+                </value>
+                <value>
+                    <fullName>Company Travel Policy</fullName>
+                    <default>false</default>
+                    <label>Company Travel Policy</label>
+                </value>
+                <value>
+                    <fullName>Compleat</fullName>
+                    <default>false</default>
+                    <label>Compleat</label>
+                </value>
+                <value>
+                    <fullName>Concur</fullName>
+                    <default>false</default>
+                    <label>Concur</label>
+                </value>
+                <value>
+                    <fullName>Concur Approval</fullName>
+                    <default>false</default>
+                    <label>Concur Approval</label>
+                </value>
+                <value>
+                    <fullName>Customer Service - OBT</fullName>
+                    <default>false</default>
+                    <label>Customer Service - OBT</label>
+                </value>
+                <value>
+                    <fullName>Customer Service - Traditional</fullName>
+                    <default>false</default>
+                    <label>Customer Service - Traditional</label>
+                </value>
+                <value>
+                    <fullName>Fare Savings Issue</fullName>
+                    <default>false</default>
+                    <label>Fare Savings Issue</label>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+                <value>
+                    <fullName>Get There</fullName>
+                    <default>false</default>
+                    <label>Get There</label>
+                </value>
+                <value>
+                    <fullName>Implementation&apos;</fullName>
+                    <default>false</default>
+                    <label>Implementation&apos;</label>
+                </value>
+                <value>
+                    <fullName>INNfinity</fullName>
+                    <default>false</default>
+                    <label>INNfinity</label>
+                </value>
+                <value>
+                    <fullName>Invoicing/Refunds/Overcharge</fullName>
+                    <default>false</default>
+                    <label>Invoicing/Refunds/Overcharge</label>
+                </value>
+                <value>
+                    <fullName>Nutravel</fullName>
+                    <default>false</default>
+                    <label>Nutravel</label>
+                </value>
+                <value>
+                    <fullName>Positive Feedback</fullName>
+                    <default>false</default>
+                    <label>Positive Feedback</label>
+                </value>
+                <value>
+                    <fullName>Profiles</fullName>
+                    <default>false</default>
+                    <label>Profiles</label>
+                </value>
+                <value>
+                    <fullName>Quality Control</fullName>
+                    <default>false</default>
+                    <label>Quality Control</label>
+                </value>
+                <value>
+                    <fullName>Scripts</fullName>
+                    <default>false</default>
+                    <label>Scripts</label>
+                </value>
+                <value>
+                    <fullName>TSS Agent issue</fullName>
+                    <default>false</default>
+                    <label>TSS Agent issue</label>
+                </value>
+                <value>
+                    <fullName>Udid reporting field Issue</fullName>
+                    <default>false</default>
+                    <label>Udid reporting field Issue</label>
+                </value>
+                <value>
+                    <fullName>Unused Ticket Reports/Name Change</fullName>
+                    <default>false</default>
+                    <label>Unused Ticket Reports/Name Change</label>
+                </value>
+                <value>
+                    <fullName>Vendor - Air</fullName>
+                    <default>false</default>
+                    <label>Vendor - Air</label>
+                </value>
+                <value>
+                    <fullName>Vendor - Car Rental</fullName>
+                    <default>false</default>
+                    <label>Vendor - Car Rental</label>
+                </value>
+                <value>
+                    <fullName>Vendor - Hotel</fullName>
+                    <default>false</default>
+                    <label>Vendor - Hotel</label>
+                </value>
+                <value>
+                    <fullName>VIP Travellers</fullName>
+                    <default>false</default>
+                    <label>VIP Travellers</label>
+                </value>
+                <value>
+                    <fullName>Vision 24</fullName>
+                    <default>false</default>
+                    <label>Vision 24</label>
+                </value>
+                <value>
+                    <fullName>Vision Air (International Rates Desk)</fullName>
+                    <default>false</default>
+                    <label>Vision Air (International Rates Desk)</label>
+                </value>
+                <value>
+                    <fullName>Visionlinks</fullName>
+                    <default>false</default>
+                    <label>Visionlinks</label>
+                </value>
+                <value>
+                    <fullName>Waivers &amp; Favours</fullName>
+                    <default>false</default>
+                    <label>Waivers &amp; Favours</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_DK__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer DK</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey_Date__c</fullName>
+        <description>The date the survey that generated this case was completed by traveler. Referenced/mapped in Flow.</description>
+        <label>Survey Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Routine_Name__c</fullName>
+        <description>Name of the compleat routine for easytracking</description>
+        <externalId>true</externalId>
+        <label>Routine Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The Account Owner field is mapped from the OwnerID field on the related Account for a Client Traveler Survey Case. Populated through Flow.</description>
+        <label>Account Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Case_Category__c</fullName>
+        <label>Case Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Call Transfer</fullName>
+                    <default>false</default>
+                    <label>Call Transfer</label>
+                </value>
+                <value>
+                    <fullName>Compleat</fullName>
+                    <default>false</default>
+                    <label>Compleat</label>
+                </value>
+                <value>
+                    <fullName>Concur Approval System</fullName>
+                    <default>false</default>
+                    <label>Concur Approval System</label>
+                </value>
+                <value>
+                    <fullName>Concur System</fullName>
+                    <default>false</default>
+                    <label>Concur System</label>
+                </value>
+                <value>
+                    <fullName>Customer Service Issue</fullName>
+                    <default>false</default>
+                    <label>Customer Service Issue</label>
+                </value>
+                <value>
+                    <fullName>Frequent Traveler Number</fullName>
+                    <default>false</default>
+                    <label>Frequent Traveler Number</label>
+                </value>
+                <value>
+                    <fullName>Get There System</fullName>
+                    <default>false</default>
+                    <label>Get There System</label>
+                </value>
+                <value>
+                    <fullName>Nutravel System</fullName>
+                    <default>false</default>
+                    <label>Nutravel System</label>
+                </value>
+                <value>
+                    <fullName>Password Reset</fullName>
+                    <default>false</default>
+                    <label>Password Reset</label>
+                </value>
+                <value>
+                    <fullName>Profile</fullName>
+                    <default>false</default>
+                    <label>Profile</label>
+                </value>
+                <value>
+                    <fullName>Seat Selection</fullName>
+                    <default>false</default>
+                    <label>Seat Selection</label>
+                </value>
+                <value>
+                    <fullName>Technical Issue</fullName>
+                    <default>false</default>
+                    <label>Technical Issue</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Vision Links</fullName>
+                    <default>false</default>
+                    <label>Vision Links</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Received_Date__c</fullName>
+        <label>Received Date</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Received_From__c</fullName>
+        <description>Enter in the caller who brought this matter to CTS&apos;s attention.</description>
+        <externalId>false</externalId>
+        <label>Received From</label>
+        <length>45</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reported_Year__c</fullName>
+        <label>Reported Year</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2012 - Calendar Year</fullName>
+                    <default>false</default>
+                    <label>2012 - Calendar Year</label>
+                </value>
+                <value>
+                    <fullName>2013 - Calendar Year</fullName>
+                    <default>false</default>
+                    <label>2013 - Calendar Year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Resolved_Date__c</fullName>
+        <label>Resolved Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Traveler_Last__c</fullName>
+        <externalId>false</externalId>
+        <label>Traveler Last</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Login_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>User Login ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booking_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Booking Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Departure_Date__c</fullName>
+        <label>Departure Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Other_comments__c</fullName>
+        <description>Populated from the Survey Response for the Client Traveler Survey. Autogenerated through Flow.</description>
+        <label>Other comments.</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SFDC_LEGACY_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>SFDC_LEGACY_ID</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Traveler_First__c</fullName>
+        <externalId>false</externalId>
+        <label>Traveler First</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Traveller_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Traveller Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSI_Recorded_By__c</fullName>
+        <label>CSI Recorded By</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bonnie Casey</fullName>
+                    <default>false</default>
+                    <label>Bonnie Casey</label>
+                </value>
+                <value>
+                    <fullName>Brenda Thrasher</fullName>
+                    <default>false</default>
+                    <label>Brenda Thrasher</label>
+                </value>
+                <value>
+                    <fullName>Christine Berbaum</fullName>
+                    <default>false</default>
+                    <label>Christine Berbaum</label>
+                </value>
+                <value>
+                    <fullName>Denise Ervin</fullName>
+                    <default>false</default>
+                    <label>Denise Ervin</label>
+                </value>
+                <value>
+                    <fullName>Dina Catania</fullName>
+                    <default>false</default>
+                    <label>Dina Catania</label>
+                </value>
+                <value>
+                    <fullName>Doreen Benoy</fullName>
+                    <default>false</default>
+                    <label>Doreen Benoy</label>
+                </value>
+                <value>
+                    <fullName>Elisha Wold</fullName>
+                    <default>false</default>
+                    <label>Elisha Wold</label>
+                </value>
+                <value>
+                    <fullName>Erika Kreis</fullName>
+                    <default>false</default>
+                    <label>Erika Kreis</label>
+                </value>
+                <value>
+                    <fullName>Jody Hayes</fullName>
+                    <default>false</default>
+                    <label>Jody Hayes</label>
+                </value>
+                <value>
+                    <fullName>Karen Rogers</fullName>
+                    <default>false</default>
+                    <label>Karen Rogers</label>
+                </value>
+                <value>
+                    <fullName>Kyle Mistrot</fullName>
+                    <default>false</default>
+                    <label>Kyle Mistrot</label>
+                </value>
+                <value>
+                    <fullName>Maggie Bates</fullName>
+                    <default>false</default>
+                    <label>Maggie Bates</label>
+                </value>
+                <value>
+                    <fullName>Patty Makris</fullName>
+                    <default>false</default>
+                    <label>Patty Makris</label>
+                </value>
+                <value>
+                    <fullName>Rebecca Bennett</fullName>
+                    <default>false</default>
+                    <label>Rebecca Bennett</label>
+                </value>
+                <value>
+                    <fullName>Terry Porter</fullName>
+                    <default>false</default>
+                    <label>Terry Porter</label>
+                </value>
+                <value>
+                    <fullName>Sharon Birtley</fullName>
+                    <default>false</default>
+                    <label>Sharon Birtley</label>
+                </value>
+                <value>
+                    <fullName>Tara Moe</fullName>
+                    <default>false</default>
+                    <label>Tara Moe</label>
+                </value>
+                <value>
+                    <fullName>Toni Zanella</fullName>
+                    <default>false</default>
+                    <label>Toni Zanella</label>
+                </value>
+                <value>
+                    <fullName>Tracy Farris</fullName>
+                    <default>false</default>
+                    <label>Tracy Farris</label>
+                </value>
+                <value>
+                    <fullName>Veronica Walker</fullName>
+                    <default>false</default>
+                    <label>Veronica Walker</label>
+                </value>
+                <value>
+                    <fullName>Brooke Szczesniuk</fullName>
+                    <default>false</default>
+                    <label>_Brooke Szczesniuk</label>
+                </value>
+                <value>
+                    <fullName>_Bruce Thomas</fullName>
+                    <default>false</default>
+                    <label>_Bruce Thomas</label>
+                </value>
+                <value>
+                    <fullName>Carolyn Serafini</fullName>
+                    <default>false</default>
+                    <label>_Carolyn Serafini</label>
+                </value>
+                <value>
+                    <fullName>_Cindy Kerrigan</fullName>
+                    <default>false</default>
+                    <label>_Cindy Kerrigan</label>
+                </value>
+                <value>
+                    <fullName>Dan Neill</fullName>
+                    <default>false</default>
+                    <label>_Dan Neill</label>
+                </value>
+                <value>
+                    <fullName>Darryl Martin</fullName>
+                    <default>false</default>
+                    <label>_Darryl Martin</label>
+                </value>
+                <value>
+                    <fullName>Debbie Chick</fullName>
+                    <default>false</default>
+                    <label>_Debbie Chick</label>
+                </value>
+                <value>
+                    <fullName>Eve Ryan</fullName>
+                    <default>false</default>
+                    <label>_Eve Ryan</label>
+                </value>
+                <value>
+                    <fullName>Gena Carmen</fullName>
+                    <default>false</default>
+                    <label>_Gena Carmen</label>
+                </value>
+                <value>
+                    <fullName>Katie Thress</fullName>
+                    <default>false</default>
+                    <label>_Katie Thress</label>
+                </value>
+                <value>
+                    <fullName>_Marvin Chandler</fullName>
+                    <default>false</default>
+                    <label>_Marvin Chandler</label>
+                </value>
+                <value>
+                    <fullName>Patti Anderson</fullName>
+                    <default>false</default>
+                    <label>_Patti Anderson</label>
+                </value>
+                <value>
+                    <fullName>_Rena Rieck</fullName>
+                    <default>false</default>
+                    <label>_Rena Rieck</label>
+                </value>
+                <value>
+                    <fullName>_Robin Schuetze</fullName>
+                    <default>false</default>
+                    <label>_Robin Schuetze</label>
+                </value>
+                <value>
+                    <fullName>_Terri Kragness</fullName>
+                    <default>false</default>
+                    <label>_Terri Kragness</label>
+                </value>
+                <value>
+                    <fullName>Wendy Judge</fullName>
+                    <default>false</default>
+                    <label>_Wendy Judge</label>
+                </value>
+                <value>
+                    <fullName>Tracy Davis-Pitts</fullName>
+                    <default>false</default>
+                    <label>_Tracy Davis-Pitts</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Resolution_Type__c</fullName>
+        <label>Resolution Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Barter/Soft_Dollars</fullName>
+                    <default>false</default>
+                    <label>Barter/Soft Dollars</label>
+                </value>
+                <value>
+                    <fullName>Billed Back to Client</fullName>
+                    <default>false</default>
+                    <label>Billed Back to Client</label>
+                </value>
+                <value>
+                    <fullName>Credited on Client CC</fullName>
+                    <default>false</default>
+                    <label>Credited on Client CC</label>
+                </value>
+                <value>
+                    <fullName>Credited on Client Statement</fullName>
+                    <default>false</default>
+                    <label>Credited on Client Statement</label>
+                </value>
+                <value>
+                    <fullName>Supplier Reimbursed</fullName>
+                    <default>false</default>
+                    <label>Supplier Reimbursed</label>
+                </value>
+                <value>
+                    <fullName>Check Request</fullName>
+                    <default>false</default>
+                    <label>Check Request</label>
+                </value>
+                <value>
+                    <fullName>DT Credit Card</fullName>
+                    <default>false</default>
+                    <label>DT Credit Card</label>
+                </value>
+                <value>
+                    <fullName>Goodwill</fullName>
+                    <default>false</default>
+                    <label>Goodwill</label>
+                </value>
+                <value>
+                    <fullName>IAR</fullName>
+                    <default>false</default>
+                    <label>IAR</label>
+                </value>
+                <value>
+                    <fullName>Waived Service Fee</fullName>
+                    <default>false</default>
+                    <label>Waived Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Waiver</fullName>
+                    <default>false</default>
+                    <label>Waiver</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Respondent_Name__c</fullName>
+        <description>Populated from the Survey Response for a Client Traveler Survey. Autogenerated through Flow.</description>
+        <externalId>false</externalId>
+        <label>Respondent Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expected_Results__c</fullName>
+        <label>Expected Results</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Respondent_Email__c</fullName>
+        <description>Populated from the Survey Response for a Client Traveler Survey. Autogenerated through Flow.</description>
+        <externalId>false</externalId>
+        <label>Respondent Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Internal_Comments__c</fullName>
+        <label>Internal Comments Custom</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Resolution_Action__c</fullName>
+        <label>Resolution Action</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agent Informed</fullName>
+                    <default>false</default>
+                    <label>Agent Informed</label>
+                </value>
+                <value>
+                    <fullName>Letter/E-mail</fullName>
+                    <default>false</default>
+                    <label>Letter/E-mail</label>
+                </value>
+                <value>
+                    <fullName>Resolution Paid - By Direct Travel</fullName>
+                    <default>false</default>
+                    <label>Resolution Paid - By Direct Travel</label>
+                </value>
+                <value>
+                    <fullName>Resolution Paid - By Vendor</fullName>
+                    <default>false</default>
+                    <label>Resolution Paid - By Vendor</label>
+                </value>
+                <value>
+                    <fullName>Verbal</fullName>
+                    <default>false</default>
+                    <label>Verbal</label>
+                </value>
+                <value>
+                    <fullName>Emailed Apology</fullName>
+                    <default>false</default>
+                    <label>Emailed Apology</label>
+                </value>
+                <value>
+                    <fullName>No Traveler Response</fullName>
+                    <default>false</default>
+                    <label>No Traveler Response</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Steps_to_Recreate__c</fullName>
+        <label>Steps to Recreate</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CSI_Internal_Notes__c</fullName>
+        <label>CSI Internal Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DT_Resolution_Cost__c</fullName>
+        <label>DT Resolution Cost</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Client_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Phone Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cost_to_be_Approved__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost to be Approved</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Email_contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Email contact</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_for_screen_shots__c</fullName>
+        <label>URL for screen shots</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Case_Safe_Salesforce_ID__c</fullName>
+        <description>The case safe/sensitive 18 character unique Salesforce.com ID for this Case record.</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <label>Case Safe Salesforce ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mid_office_closure_types__c</fullName>
+        <description>mid-office closure types</description>
+        <externalId>false</externalId>
+        <label>Mid-office closure types</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DT_CONVERSION_CASE_NUMBER__c</fullName>
+        <externalId>false</externalId>
+        <label>DT CONVERSION CASE NUMBER</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Res_Center_Booking_Office__c</fullName>
+        <description>The res center/booking office for a Case is populated from the related Account, when a Client Traveler Survey Case record is autogenerated through flow.</description>
+        <externalId>false</externalId>
+        <label>Res Center / Booking Office</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_this_billable_to_client__c</fullName>
+        <label>​Is this billable to client</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>YES</fullName>
+                    <default>false</default>
+                    <label>YES</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>New_Account_Set_Up_Billing__c</fullName>
+        <label>New Account Set Up Billing</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>YES</fullName>
+                    <default>false</default>
+                    <label>YES</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Waiver_or_Favour_dollar_value__c</fullName>
+        <externalId>false</externalId>
+        <label>Waiver or Favour dollar value</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team_QC_Name_Handling_the_Case__c</fullName>
+        <externalId>false</externalId>
+        <label>Team QC Name Handling the Case</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billable_or_Non_Billable_Reason__c</fullName>
+        <label>Billable or Non Billable Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Billable YES</fullName>
+                    <default>false</default>
+                    <label>Billable YES</label>
+                </value>
+                <value>
+                    <fullName>Non Billable - Compleat Routine Maintenance</fullName>
+                    <default>false</default>
+                    <label>Non Billable - Compleat Routine Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Non Billable - Script Maintenance</fullName>
+                    <default>false</default>
+                    <label>Non Billable - Script Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Non Billable - Compleat internal issue</fullName>
+                    <default>false</default>
+                    <label>Non Billable - Compleat internal issue</label>
+                </value>
+                <value>
+                    <fullName>Non Billable - Fee Waived need Finance Approval</fullName>
+                    <default>false</default>
+                    <label>Non Billable - Fee Waived need Finance Approval</label>
+                </value>
+                <value>
+                    <fullName>Non Billable - Included in Contract Agreement</fullName>
+                    <default>false</default>
+                    <label>Non Billable - Included in Contract Agreement</label>
+                </value>
+                <value>
+                    <fullName>Non Billable-Included in Soft Dollar Contract</fullName>
+                    <default>false</default>
+                    <label>Non Billable-Included in Soft Dollar Contract</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>How_likely_to_recommend_services__c</fullName>
+        <description>Net Promoter Score provided from a Survey Response for a Client Traveler Survey. Autogenerated through Flow.</description>
+        <externalId>false</externalId>
+        <label>How likely to recommend services?</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>How_was_your_reservation_experience__c</fullName>
+        <description>Populated from the Survey Response from a Client Traveler Survey. Autogenerated through Flow.</description>
+        <label>How was your reservation experience?</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Steps_Prior_Escalation_Full_Service__c</fullName>
+        <label>Steps Prior Escalation Full Service</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Checked Compleat remarks *Q#</fullName>
+                    <default>false</default>
+                    <label>Checked Compleat remarks *Q#</label>
+                </value>
+                <value>
+                    <fullName>Checked PNR History *H</fullName>
+                    <default>false</default>
+                    <label>Checked PNR History *H</label>
+                </value>
+                <value>
+                    <fullName>Checked PNR Queue History *QH</fullName>
+                    <default>false</default>
+                    <label>Checked PNR Queue History *QH</label>
+                </value>
+                <value>
+                    <fullName>Checked Salesforce</fullName>
+                    <default>false</default>
+                    <label>Checked Salesforce</label>
+                </value>
+                <value>
+                    <fullName>Checked Star</fullName>
+                    <default>false</default>
+                    <label>Checked Star</label>
+                </value>
+                <value>
+                    <fullName>Checked Traveler Profile</fullName>
+                    <default>false</default>
+                    <label>Checked Traveler Profile</label>
+                </value>
+                <value>
+                    <fullName>Contacted Airline</fullName>
+                    <default>false</default>
+                    <label>Contacted Airline</label>
+                </value>
+                <value>
+                    <fullName>Contacted Car Company</fullName>
+                    <default>false</default>
+                    <label>Contacted Car Company</label>
+                </value>
+                <value>
+                    <fullName>Contacted Hotel</fullName>
+                    <default>false</default>
+                    <label>Contacted Hotel</label>
+                </value>
+                <value>
+                    <fullName>Provided Screen Shots</fullName>
+                    <default>false</default>
+                    <label>Provided Screen Shots</label>
+                </value>
+                <value>
+                    <fullName>Tested Script</fullName>
+                    <default>false</default>
+                    <label>Tested Script</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Estimated_Time_to_be_added_by_Team_QC__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Time to be added by Team QC</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Time_spent_on_resolution_or_programming__c</fullName>
+        <externalId>false</externalId>
+        <label>Time spent on resolution or programming</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>CSI</fullName>
+        <active>true</active>
+        <businessProcess>US CSI</businessProcess>
+        <description>US Customer Service Incident (CSI)</description>
+        <label>CSI</label>
+        <picklistValues>
+            <picklist>At_Fault__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT - Shared Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT US Core</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Info Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other After-hours Provider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Billable_or_Non_Billable_Reason__c</picklist>
+            <values>
+                <fullName>Billable YES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat Routine Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat internal issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Fee Waived need Finance Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Included in Contract Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Script Maintenance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CSI_Recorded_By__c</picklist>
+            <values>
+                <fullName>Bonnie Casey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brenda Thrasher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brooke Szczesniuk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Carolyn Serafini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Christine Berbaum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dan Neill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Darryl Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debbie Chick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denise Ervin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dina Catania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doreen Benoy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elisha Wold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Erika Kreis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eve Ryan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gena Carmen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jody Hayes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Karen Rogers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Katie Thress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kyle Mistrot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maggie Bates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Patti Anderson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Patty Makris</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebecca Bennett</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sharon Birtley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tara Moe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terry Porter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toni Zanella</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tracy Davis-Pitts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tracy Farris</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Veronica Walker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wendy Judge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Bruce Thomas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Cindy Kerrigan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Marvin Chandler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Rena Rieck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Robin Schuetze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Terri Kragness</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Category__c</picklist>
+            <values>
+                <fullName>Call Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frequent Traveler Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seat Selection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Links</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Reason__c</picklist>
+            <values>
+                <fullName>ADMs %28Airline Debit Memo%27s%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Mgmt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto Ticketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CETAS Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company Travel Policy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - Traditional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fare Savings Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implementation%27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoicing%2FRefunds%2FOvercharge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positive Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profiles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scripts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSS Agent issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Udid reporting field Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unused Ticket Reports%2FName Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Travellers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Car Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Air %28International Rates Desk%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visionlinks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waivers %26 Favours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_this_billable_to_client__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_Account_Set_Up_Billing__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OBT_Site__c</picklist>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>E-Mail</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Survey</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Churning %28or Airline Monthly Memo%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commission Recall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Form of Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price%2FFare%2FRate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refund Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SABRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seats</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticketing %28Missed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Date%2FTime%2FCity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Ticketing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reported_Year__c</picklist>
+            <values>
+                <fullName>2012 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Action__c</picklist>
+            <values>
+                <fullName>Agent Informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Letter%2FE-mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution Paid - By Direct Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution Paid - By Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verbal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Type__c</picklist>
+            <values>
+                <fullName>Barter%2FSoft_Dollars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billed Back to Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credited on Client CC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credited on Client Statement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT Credit Card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supplier Reimbursed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waived Service Fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Steps_Prior_Escalation_Full_Service__c</picklist>
+            <values>
+                <fullName>Checked Compleat remarks *Q%23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR History *H</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR Queue History *QH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Traveler Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Airline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Car Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provided Screen Shots</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tested Script</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit Memo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Customer_Support_Case</fullName>
+        <active>true</active>
+        <businessProcess>V2K Case Management</businessProcess>
+        <description>Creates cases for customer support or programming automation</description>
+        <label>Customer Support Case</label>
+        <picklistValues>
+            <picklist>At_Fault__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Billable_or_Non_Billable_Reason__c</picklist>
+            <values>
+                <fullName>Billable YES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat Routine Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat internal issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Fee Waived need Finance Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Included in Contract Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Script Maintenance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CSI_Recorded_By__c</picklist>
+            <values>
+                <fullName>Carolyn Serafini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Christine Berbaum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dan Neill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Darryl Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debbie Chick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dina Catania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eve Ryan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Patti Anderson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terry Porter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tracy Farris</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wendy Judge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Bruce Thomas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Cindy Kerrigan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Marvin Chandler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Rena Rieck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Robin Schuetze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Terri Kragness</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Category__c</picklist>
+            <values>
+                <fullName>Call Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frequent Traveler Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seat Selection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Links</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Reason__c</picklist>
+            <values>
+                <fullName>ADMs %28Airline Debit Memo%27s%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Mgmt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto Ticketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CETAS Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company Travel Policy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - Traditional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fare Savings Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implementation%27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoicing%2FRefunds%2FOvercharge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positive Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profiles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scripts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSS Agent issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Udid reporting field Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unused Ticket Reports%2FName Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Travellers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Car Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Air %28International Rates Desk%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visionlinks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waivers %26 Favours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_this_billable_to_client__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_Account_Set_Up_Billing__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OBT_Site__c</picklist>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>E-Mail</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Survey</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Churning %28or Airline Monthly Memo%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commission Recall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Form of Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price%2FFare%2FRate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SABRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seats</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticketing %28Missed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Date%2FTime%2FCity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Ticketing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reported_Year__c</picklist>
+            <values>
+                <fullName>2012 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Action__c</picklist>
+            <values>
+                <fullName>Agent Informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Letter%2FE-mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution Paid - By Direct Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution Paid - By Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verbal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Type__c</picklist>
+            <values>
+                <fullName>Barter%2FSoft_Dollars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billed Back to Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credited on Client Statement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT Credit Card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Steps_Prior_Escalation_Full_Service__c</picklist>
+            <values>
+                <fullName>Checked Compleat remarks *Q%23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR History *H</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR Queue History *QH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Traveler Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Airline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Car Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provided Screen Shots</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tested Script</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit Memo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Client_Traveler_Survey</fullName>
+        <active>true</active>
+        <businessProcess>Client Traveler Survey</businessProcess>
+        <compactLayoutAssignment>Client_Traveler_Survey_Case</compactLayoutAssignment>
+        <description>Case autogenerated from Traveler Survey Low NPS Score (0, 1, or 2)</description>
+        <label>Client Traveler Survey</label>
+        <picklistValues>
+            <picklist>At_Fault__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT - Shared Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other After-hours Provider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Billable_or_Non_Billable_Reason__c</picklist>
+            <values>
+                <fullName>Billable YES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat Routine Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat internal issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Fee Waived need Finance Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Included in Contract Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Script Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable-Included in Soft Dollar Contract</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CSI_Recorded_By__c</picklist>
+            <values>
+                <fullName>Brenda Thrasher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brooke Szczesniuk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Carolyn Serafini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Christine Berbaum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dan Neill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Darryl Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debbie Chick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dina Catania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elisha Wold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eve Ryan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gena Carmen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jody Hayes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Karen Rogers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Katie Thress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maggie Bates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Patti Anderson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sharon Birtley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tara Moe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terry Porter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tracy Davis-Pitts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tracy Farris</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wendy Judge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Bruce Thomas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Cindy Kerrigan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Marvin Chandler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Rena Rieck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Robin Schuetze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Terri Kragness</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Category__c</picklist>
+            <values>
+                <fullName>Call Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frequent Traveler Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seat Selection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Links</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Reason__c</picklist>
+            <values>
+                <fullName>ADMs %28Airline Debit Memo%27s%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Mgmt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto Ticketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CETAS Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company Travel Policy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - Traditional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fare Savings Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implementation%27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoicing%2FRefunds%2FOvercharge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positive Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profiles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scripts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSS Agent issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Udid reporting field Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unused Ticket Reports%2FName Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Travellers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Car Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Air %28International Rates Desk%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visionlinks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waivers %26 Favours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_this_billable_to_client__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_Account_Set_Up_Billing__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OBT_Site__c</picklist>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Survey</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>After-hours</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Form of Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itinerary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price%2FFare%2FRate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seats</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticketing %28Missed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Date%2FTime%2FCity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reported_Year__c</picklist>
+            <values>
+                <fullName>2012 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Action__c</picklist>
+            <values>
+                <fullName>Agent Informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Emailed Apology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Traveler Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Type__c</picklist>
+            <values>
+                <fullName>Barter%2FSoft_Dollars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credited on Client CC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supplier Reimbursed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Steps_Prior_Escalation_Full_Service__c</picklist>
+            <values>
+                <fullName>Checked Compleat remarks *Q%23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR History *H</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR Queue History *QH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Traveler Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Airline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Car Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provided Screen Shots</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tested Script</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Online_Booking_Tool_Issue</fullName>
+        <active>true</active>
+        <businessProcess>Online Booking Tool Support</businessProcess>
+        <description>Log or Escalate Support Issues for OBT</description>
+        <label>Online Booking Tool Issue</label>
+        <picklistValues>
+            <picklist>At_Fault__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Billable_or_Non_Billable_Reason__c</picklist>
+            <values>
+                <fullName>Billable YES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat Routine Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat internal issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Fee Waived need Finance Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Included in Contract Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Script Maintenance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CSI_Recorded_By__c</picklist>
+            <values>
+                <fullName>Carolyn Serafini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Christine Berbaum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dan Neill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Darryl Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debbie Chick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dina Catania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eve Ryan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Patti Anderson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terry Porter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tracy Farris</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wendy Judge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Bruce Thomas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Cindy Kerrigan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Marvin Chandler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Rena Rieck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Robin Schuetze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Terri Kragness</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Category__c</picklist>
+            <values>
+                <fullName>Call Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frequent Traveler Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seat Selection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Links</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Reason__c</picklist>
+            <values>
+                <fullName>ADMs %28Airline Debit Memo%27s%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Mgmt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto Ticketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CETAS Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company Travel Policy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - Traditional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fare Savings Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implementation%27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoicing%2FRefunds%2FOvercharge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positive Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profiles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scripts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSS Agent issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Udid reporting field Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unused Ticket Reports%2FName Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Travellers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Car Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Air %28International Rates Desk%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visionlinks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waivers %26 Favours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_this_billable_to_client__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_Account_Set_Up_Billing__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OBT_Site__c</picklist>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>E-Mail</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Survey</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Churning %28or Airline Monthly Memo%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commission Recall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Form of Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price%2FFare%2FRate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SABRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seats</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticketing %28Missed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Date%2FTime%2FCity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Ticketing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reported_Year__c</picklist>
+            <values>
+                <fullName>2012 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Action__c</picklist>
+            <values>
+                <fullName>Agent Informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Letter%2FE-mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution Paid - By Direct Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution Paid - By Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verbal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Type__c</picklist>
+            <values>
+                <fullName>Barter%2FSoft_Dollars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billed Back to Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credited on Client Statement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT Credit Card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Steps_Prior_Escalation_Full_Service__c</picklist>
+            <values>
+                <fullName>Checked Compleat remarks *Q%23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR History *H</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR Queue History *QH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Traveler Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Airline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Car Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provided Screen Shots</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tested Script</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit Memo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>QC_Compleat_Script_Requests</fullName>
+        <active>true</active>
+        <businessProcess>V2K Case Management</businessProcess>
+        <description>Case to escalate compleat ad script issues</description>
+        <label>QC - Compleat/Script Requests</label>
+        <picklistValues>
+            <picklist>At_Fault__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Billable_or_Non_Billable_Reason__c</picklist>
+            <values>
+                <fullName>Billable YES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat Routine Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Compleat internal issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Fee Waived need Finance Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Included in Contract Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable - Script Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Billable-Included in Soft Dollar Contract</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CSI_Recorded_By__c</picklist>
+            <values>
+                <fullName>Carolyn Serafini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Christine Berbaum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dan Neill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Darryl Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debbie Chick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dina Catania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eve Ryan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Patti Anderson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terry Porter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tracy Farris</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wendy Judge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Bruce Thomas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Cindy Kerrigan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Marvin Chandler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Rena Rieck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Robin Schuetze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Terri Kragness</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Category__c</picklist>
+            <values>
+                <fullName>Call Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frequent Traveler Number</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seat Selection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Links</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Case_Reason__c</picklist>
+            <values>
+                <fullName>ADMs %28Airline Debit Memo%27s%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Mgmt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto Ticketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CETAS Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company Travel Policy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compleat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concur Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service - Traditional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fare Savings Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implementation%27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoicing%2FRefunds%2FOvercharge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positive Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profiles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality Control</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scripts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSS Agent issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Udid reporting field Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unused Ticket Reports%2FName Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Travellers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Car Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor - Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision Air %28International Rates Desk%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visionlinks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waivers %26 Favours</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_this_billable_to_client__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_Account_Set_Up_Billing__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OBT_Site__c</picklist>
+            <values>
+                <fullName>Concur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Get There</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INNfinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutravel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>E-Mail</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Survey</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Churning %28or Airline Monthly Memo%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commission Recall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT Accounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Form of Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Name</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price%2FFare%2FRate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SABRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seats</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticketing %28Missed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Date%2FTime%2FCity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>_Ticketing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reported_Year__c</picklist>
+            <values>
+                <fullName>2012 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 - Calendar Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Action__c</picklist>
+            <values>
+                <fullName>Agent Informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Letter%2FE-mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution Paid - By Direct Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolution Paid - By Vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verbal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Type__c</picklist>
+            <values>
+                <fullName>Barter%2FSoft_Dollars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billed Back to Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credited on Client Statement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DT Credit Card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiver</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Steps_Prior_Escalation_Full_Service__c</picklist>
+            <values>
+                <fullName>Checked Compleat remarks *Q%23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR History *H</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked PNR Queue History *QH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Checked Traveler Profile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Airline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Car Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacted Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provided Screen Shots</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tested Script</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit Memo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OBT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>Resolution_Type_and_Action_Required</fullName>
+        <active>true</active>
+        <description>For Client Traveler Survey Cases, a Case cannot be closed without a value in the Resolution Type and Resolution Action fields.</description>
+        <errorConditionFormula>AND(
+RecordType.DeveloperName = &apos;Client_Traveler_Survey&apos;,
+ISPICKVAL(Status, &quot;Closed&quot;),
+OR(
+ISBLANK(Resolution_Action__c),
+ISBLANK(TEXT(Resolution_Type__c))
+)
+)</errorConditionFormula>
+        <errorMessage>Please select a Resolution Action and Resolution Type in order to close this case.</errorMessage>
+    </validationRules>
+</CustomObject>

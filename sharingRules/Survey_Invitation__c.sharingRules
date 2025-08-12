@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Share_Invitation_with_French_Site_User</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Invitation with French Site User</label>
+        <sharedTo>
+            <guestUser>Enquete_FR_CA</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Overall_Survey_Response_Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started,Started,Completed</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Share_Invitations_with_ENG_Site_User</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Invitations with ENG Site User</label>
+        <sharedTo>
+            <guestUser>ENG_Survey</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Overall_Survey_Response_Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started,Started,Completed</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

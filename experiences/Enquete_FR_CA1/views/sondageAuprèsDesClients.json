@@ -1,0 +1,46 @@
+{
+  "appPageId" : "afc03861-0950-4101-8f03-46e3dda117af",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "65540d20-ed83-458b-84df-b33d08a25272",
+  "label" : "Sondage Auprès des Clients",
+  "regions" : [ {
+    "id" : "307d9cb6-7ffa-4d80-ac94-e041a9be3633",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:createSurveyLWC",
+      "id" : "9d44a925-e9b5-4abd-ba63-fd412b09a7c3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "26e23ad7-ff74-491f-a757-cd5ba6197ad4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "75028feb-a27d-4ec2-ba60-c6aa8973ddb0",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Sondage Auprès des Clients"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bcf50adb-9250-41e5-99fa-74780518009b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f3ed32ea-132a-4f58-8927-0770532b6932",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sondage-auprs-des-clients"
+}

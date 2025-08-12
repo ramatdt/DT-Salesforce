@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Share_Traveler_Survey_with_ENG_Survey_Guest_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares the Client Traveler Survey record with the Guest Users for the ENG Survey site (Experience cloud). This allows users to take the Survey without being required to log in.</description>
+        <label>Share Traveler Survey with ENG Survey Guest Users</label>
+        <sharedTo>
+            <guestUser>ENG_Survey</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>DeveloperName</field>
+            <operation>equals</operation>
+            <value>client_traveler_survey</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Share_Traveler_Survey_with_FR_CA_Survey_Site_Guest_User</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Allows guest user access (for the FR-CA Survey Site) to the client traveler survey record.</description>
+        <label>Share Traveler Survey with FR-CA Survey Site Guest User</label>
+        <sharedTo>
+            <guestUser>Enquete_FR_CA</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>DeveloperName</field>
+            <operation>equals</operation>
+            <value>client_traveler_survey</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingOwnerRules>
+        <fullName>Share_Surveys_with_Internal_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares Surveys owned internally with all other internal users.</description>
+        <label>Share Surveys with Internal Users</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

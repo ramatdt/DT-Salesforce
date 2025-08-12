@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Any non Existing Oppty Type Stage updated to Verbal, email sent to Imp</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Oppty Stage Verbal Implementation Email</name>
+    <style>none</style>
+    <subject>Verbal Award received for {!Opportunity.Account}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

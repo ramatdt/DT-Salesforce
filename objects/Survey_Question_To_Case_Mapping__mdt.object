@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Traveler Survey Question To Case Mappings</description>
+    <label>Survey Question To Case Mapping</label>
+    <pluralLabel>Survey Question To Case Mappings</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Case_Field__c</fullName>
+        <description>Case field Field Name</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Case Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey_Question_Name__c</fullName>
+        <description>Name of survey question</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Survey Question Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

@@ -1,0 +1,21 @@
+*****
+
+Direct Travel Account Manager - 
+
+Your customer has a contract with a Contract End Date that is approaching.
+Please begin conversations with your client about renewing their contract.
+ 
+Account Record Type: {!Account.Type}
+
+Account Name: {!Account.Name}
+
+Contract End Date: {!Account.Contract_End_Date__c}
+
+Contract Start Date: {!Account.Contract_Start_Date__c}
+
+Contract Terms: {!Account.Contract_Term__c}
+
+Link to your SF Account Record: {!Account.Link}
+
+
+This is an automated email to notify you that your immediate action is required.

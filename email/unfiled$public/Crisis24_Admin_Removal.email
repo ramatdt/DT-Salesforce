@@ -1,0 +1,6 @@
+Contact Owner: {!Contact.OwnerFullName} 
+Email: {!Contact.Email} 
+Account Name: {!Account.Name}
+Crisis24: {!Account.Crisis24_GardaWorld__c}
+Crisis24 Contract ID: {!Account.Crisis24_Contract_ID__c}
+Type: {!Account.Type}

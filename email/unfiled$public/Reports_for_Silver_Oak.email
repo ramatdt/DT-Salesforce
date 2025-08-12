@@ -1,0 +1,69 @@
+Hi Everyone,
+
+At the request of our new CFO, John Coffman, we will be sending Silver Oak five monthly reports from Salesforce.com. 
+
+Here is a list of the reports, as well as, fields and record types that will be included in the reports. All of the fields listed below MUST be completed. 
+
+SALES TEAM REPORTS:
+
+2013 NEW BUSINESS WON (DT,CTS,TMC)
+OPPORTUNITY Record Fields: 
+Type (select New Business) 
+Amount 
+Annual Transactions
+Est Start Date (a.k.a. Implementation Date)
+Close Date
+
+2013 BUSINESS IMPLEMENTED (DT,CTS,TMC)
+OPPORTUNITY Record Fields: 
+Type
+Est Start Date (a.k.a Implementation Date)
+Annualized Air
+Annual Transactions 
+Prospect - OBT Adoption 
+Percentage Air - Intl
+ACCOUNT Record Field: 
+Contract Start Date
+
+
+NAMS/RAMS/ACCOUNT MANAGER REPORTS
+
+2013 CONTRACT RENEWALS/RE-NEGOTIATION (DT,CTS,TMC)
+1.) Create an Opportunity record. 
+2.) In the Opportunity Name field type - 2013 Contract Renewal - Name of Company. 
+OPPORTUNITY Record Fields: 
+Amount 
+Type (select Renewal / Re-Negotiation) 
+Stage (select Negotiation/Review). 
+If client renews, change the Stage field to Close Won. 
+If they don't renew, change the Stage field to Closed Lost.
+ACCOUNT fields: (if account renews)
+Contract Start Date
+Contract End Date
+Contract Term
+Contract Auto Roll
+
+2013 AT RISK REPORTS (DT,CTS,TMC)
+ACCOUNT Record fields: 
+CLIENT - Overall Rating 
+Air Spend - Total (this amount is pre-populated for you from 2012 financial data.)
+
+You will be asked to re-confirm the data in the Client - Overall Rating field monthly (to reflect any changes i.e. Client rating goes from Red -Poor (At Risk) to Green - Excellent)
+
+2013 ACCOUNTS LOST (DT,CTS,TMC)
+ACCOUNT record fields; 
+Type (Change to (B) Prospect, Lost Account)
+Air Spend Total (this is pre-populated for you from 2012 Financial data)
+Lost Reason
+Lost Year
+Lost Notes (Free flow)
+Last Ticketing Date (For DT, it's the cut off date listed on the Logistics form)
+Account Owner & Salesperson (Check the box)
+Save the changes.
+Then, change the account owner field back to Sales (if you are not sure whose name to change it to, ask your SF Administrator).
+
+We know that this is a lot to remember! If you forget to complete any of the fields, we will send you a reminder to update them.
+
+Please CONTINUE to fill in as many of the other fields on the records that you have been completing all along.
+
+If you have any questions, please contact me or Gina Zappa.

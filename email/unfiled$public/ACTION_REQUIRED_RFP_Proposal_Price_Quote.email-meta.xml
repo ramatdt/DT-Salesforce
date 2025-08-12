@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For workflow rule alerting Amanda and Selin that an RFP / Proposal / Price Quote has been requested</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ACTION REQUIRED: RFP/ Proposal / Price Quote</name>
+    <style>none</style>
+    <subject>ACTION REQUIRED: Help with RFP / Proposal / Price Quote</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

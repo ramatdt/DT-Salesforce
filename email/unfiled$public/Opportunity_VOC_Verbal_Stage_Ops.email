@@ -1,0 +1,30 @@
+Hello Ops Leaders,
+
+We have received a Verbal Award for {!Account.Name}.
+
+AVENIR/CORE:
+The Record Type indicates if it is AVENIR (stated), otherwise it is CORE (no reference to Avenir in the rec type):
+-- Opportunity Record Type: {!Opportunity.RecordType}
+
+ACTION NEEDED:
+Please reply via email to {!Opportunity.OwnerFullName} with the name of the Ops Manager who will be assigned. {!Opportunity.OwnerFullName} will enter this information in the oppty, which is used by the Implementation Team at Closed/Won.
+
+
+{!Opportunity.Link}
+
+Opportunity Name: {!Opportunity.Name}
+
+Opportunity Owner: {!Opportunity.OwnerFullName}
+
+Opportunity Record Type: {!Opportunity.RecordType} [
+
+Opportunity Amount: {!Opportunity.Amount}
+
+Opportunity Close Date: {!Opportunity.CloseDate}
+
+Account Billing Address:
+{!Account.BillingAddress}
+
+THIS EMAIL IS DISTRIBUTED TO INDIVIDUALS IN THESE ROLES:
+Operations Leader US Core
+Executive - Operations Canada

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alert Camille when a contact has been added to 20-HubSpot campaign</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Contact added to 20-HubSpot Campaign</name>
+    <style>none</style>
+    <subject>Contact has been added to 20-HubSpot campaign</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

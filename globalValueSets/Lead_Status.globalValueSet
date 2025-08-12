@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>-- None --</fullName>
+        <default>true</default>
+        <label>-- None --</label>
+    </customValue>
+    <customValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Engaged</fullName>
+        <default>false</default>
+        <label>Marketing Engaged</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Qualified</fullName>
+        <default>false</default>
+        <label>Marketing Qualified</label>
+    </customValue>
+    <customValue>
+        <fullName>In Process</fullName>
+        <default>false</default>
+        <label>In Process</label>
+    </customValue>
+    <customValue>
+        <fullName>Contacted</fullName>
+        <default>false</default>
+        <label>Contacted</label>
+    </customValue>
+    <customValue>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+        <label>Qualified</label>
+    </customValue>
+    <customValue>
+        <fullName>Disqualified</fullName>
+        <default>false</default>
+        <label>Disqualified</label>
+    </customValue>
+    <customValue>
+        <fullName>Recycle</fullName>
+        <default>false</default>
+        <label>Recycle</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <label>Customer</label>
+    </customValue>
+    <description>Status values on the Lead Status and Contact Status fields.</description>
+    <masterLabel>Lead Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

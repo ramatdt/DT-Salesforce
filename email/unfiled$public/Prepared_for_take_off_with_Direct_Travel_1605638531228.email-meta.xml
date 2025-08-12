@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ER Sales Email - November 2020</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Prepared for take-off with Direct Travel</name>
+    <style>none</style>
+    <subject>Prepared for take-off with Direct Travel</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

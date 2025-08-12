@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "08ee8fae-2857-4281-91d5-404aefbe1d14",
+  "appPageId" : "c5384ddd-2c91-46fc-90db-1f803594ca53",
+  "configurationTags" : [ ],
+  "devName" : "CustomSurvey__c",
+  "id" : "d7ec960f-fe0a-4978-8409-0bc00b5abeba",
+  "label" : "Survey",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-survey",
+  "type" : "route",
+  "urlPrefix" : "survey"
+}

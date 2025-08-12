@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Prospect Interested / SDR Engaged / Qualifying</fullName>
+        <color>#000000</color>
+        <default>false</default>
+        <label>Prospect Interested / SDR Engaged / Qualifying</label>
+        <closed>false</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Rep Accepted &amp; Introduced</fullName>
+        <color>#666666</color>
+        <default>false</default>
+        <label>Sales Rep Accepted &amp; Introduced</label>
+        <closed>false</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Discovery / RFX</fullName>
+        <color>#F3D904</color>
+        <default>false</default>
+        <label>Discovery / RFX</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>25</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo / Proposal / Evaluation</fullName>
+        <color>#FF9900</color>
+        <default>false</default>
+        <label>Demo / Proposal / Evaluation</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>VOC / Verbal</fullName>
+        <color>#78C953</color>
+        <default>false</default>
+        <label>VOC / Verbal</label>
+        <closed>false</closed>
+        <forecastCategory>MostLikely</forecastCategory>
+        <probability>75</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Out</fullName>
+        <color>#33CC00</color>
+        <default>false</default>
+        <label>Contract Out</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Won</fullName>
+        <color>#3366FF</color>
+        <default>false</default>
+        <label>Closed - Won</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Lost</fullName>
+        <color>#FF6666</color>
+        <default>false</default>
+        <label>Closed - Lost</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Invalid</fullName>
+        <color>#DDDDDD</color>
+        <default>false</default>
+        <description>To be used when a sales person needs to close an opportunity that they acquired from another sales person, after vetting - invalid.</description>
+        <label>Closed - Invalid</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Fishing Hole</fullName>
+        <color>#996633</color>
+        <default>false</default>
+        <label>Closed - Fishing Hole</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+</StandardValueSet>

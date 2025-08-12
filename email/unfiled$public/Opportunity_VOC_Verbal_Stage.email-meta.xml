@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Non Existing Client Opportunity is in the VOC Verbal Stage.  The Opportunity Owner requires addtional information.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Opportunity VOC Verbal Stage AM Not CA</name>
+    <style>none</style>
+    <subject>Verbal Award received for {!Opportunity.Account} - {!Opportunity.Amount}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

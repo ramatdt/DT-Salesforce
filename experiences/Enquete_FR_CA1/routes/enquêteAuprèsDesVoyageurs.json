@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "65540d20-ed83-458b-84df-b33d08a25272",
+  "appPageId" : "afc03861-0950-4101-8f03-46e3dda117af",
+  "configurationTags" : [ ],
+  "devName" : "ClientSurveyFRCA__c",
+  "id" : "c984b055-9ef1-417d-b8a2-8992daecfab6",
+  "label" : "Enquête Auprès des Voyageurs",
+  "pageAccess" : "Public",
+  "routeType" : "custom-sondage-auprs-des-clients",
+  "type" : "route",
+  "urlPrefix" : "enquete-aupres-des-voyageurs"
+}

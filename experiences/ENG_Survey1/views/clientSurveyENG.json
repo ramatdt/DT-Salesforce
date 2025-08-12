@@ -1,0 +1,46 @@
+{
+  "appPageId" : "c5384ddd-2c91-46fc-90db-1f803594ca53",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ed2cc2c3-6e2a-407d-bbe3-79a43621e849",
+  "label" : "Client Survey ENG",
+  "regions" : [ {
+    "id" : "f42ee72a-a78d-4361-9d0e-dbc9f4a7c547",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:createSurveyLWC",
+      "id" : "c43e3930-9ff8-438c-94f2-1d46036a7805",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "994a3b2d-29f4-42de-b9a0-8c2a6707c737",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e9f33945-49b5-4ab8-a2df-b16f45711e76",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Client Survey ENG"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0005edad-ebb2-4859-a05c-e718832a1c7b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eae85585-75e7-42b6-b61b-32fb6d1eb606",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-client-survey-eng"
+}

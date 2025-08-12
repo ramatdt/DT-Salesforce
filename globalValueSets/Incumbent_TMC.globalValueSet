@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AAA</fullName>
+        <default>false</default>
+        <label>AAA</label>
+    </customValue>
+    <customValue>
+        <fullName>Abacus</fullName>
+        <default>false</default>
+        <label>Abacus</label>
+    </customValue>
+    <customValue>
+        <fullName>Abbey Travel</fullName>
+        <default>false</default>
+        <label>Abbey Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Able Travel</fullName>
+        <default>false</default>
+        <label>Able Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Accord</fullName>
+        <default>false</default>
+        <label>Accord</label>
+    </customValue>
+    <customValue>
+        <fullName>Account will not disclose</fullName>
+        <default>false</default>
+        <label>Account will not disclose</label>
+    </customValue>
+    <customValue>
+        <fullName>Action Travel</fullName>
+        <default>false</default>
+        <label>Action Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Adelman Travel</fullName>
+        <default>false</default>
+        <label>Adelman Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>ADTRAV</fullName>
+        <default>false</default>
+        <label>ADTRAV</label>
+    </customValue>
+    <customValue>
+        <fullName>Advanced Travel</fullName>
+        <default>false</default>
+        <label>Advanced Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>AJA Stanmore</fullName>
+        <default>false</default>
+        <label>AJA Stanmore</label>
+    </customValue>
+    <customValue>
+        <fullName>Alba Travel</fullName>
+        <default>false</default>
+        <label>Alba Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Alexander Travel</fullName>
+        <default>false</default>
+        <label>Alexander Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>All About Travel</fullName>
+        <default>false</default>
+        <label>All About Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>All Points Travel</fullName>
+        <default>false</default>
+        <label>All Points Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Allstar Travel Group (ATG)</fullName>
+        <default>false</default>
+        <label>Allstar Travel Group (ATG)</label>
+    </customValue>
+    <customValue>
+        <fullName>Altour</fullName>
+        <default>false</default>
+        <label>Altour</label>
+    </customValue>
+    <customValue>
+        <fullName>American Express Global Travel</fullName>
+        <default>false</default>
+        <label>American Express Global Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>American Travel Planners</fullName>
+        <default>false</default>
+        <label>American Travel Planners</label>
+    </customValue>
+    <customValue>
+        <fullName>AMJ Getaways</fullName>
+        <default>false</default>
+        <label>AMJ Getaways</label>
+    </customValue>
+    <customValue>
+        <fullName>AmTrav</fullName>
+        <default>false</default>
+        <label>AmTrav</label>
+    </customValue>
+    <customValue>
+        <fullName>Ancor Travel and Tours</fullName>
+        <default>false</default>
+        <label>Ancor Travel and Tours</label>
+    </customValue>
+    <customValue>
+        <fullName>Anderson Travel</fullName>
+        <default>false</default>
+        <label>Anderson Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Angora</fullName>
+        <default>false</default>
+        <label>Angora</label>
+    </customValue>
+    <customValue>
+        <fullName>Anthony Travel</fullName>
+        <default>false</default>
+        <label>Anthony Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Apollo Travel</fullName>
+        <default>false</default>
+        <label>Apollo Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Aquarius</fullName>
+        <default>false</default>
+        <label>Aquarius</label>
+    </customValue>
+    <customValue>
+        <fullName>Aries Travel</fullName>
+        <default>false</default>
+        <label>Aries Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Ascendas</fullName>
+        <default>false</default>
+        <label>Ascendas</label>
+    </customValue>
+    <customValue>
+        <fullName>Associated Travel</fullName>
+        <default>false</default>
+        <label>Associated Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Astro Travel</fullName>
+        <default>false</default>
+        <label>Astro Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>ATC Travel Corp</fullName>
+        <default>false</default>
+        <label>ATC Travel Corp</label>
+    </customValue>
+    <customValue>
+        <fullName>ATG</fullName>
+        <default>false</default>
+        <label>ATG</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlas</fullName>
+        <default>false</default>
+        <label>Atlas</label>
+    </customValue>
+    <customValue>
+        <fullName>ATPi</fullName>
+        <default>false</default>
+        <label>ATPi</label>
+    </customValue>
+    <customValue>
+        <fullName>Austin Travel</fullName>
+        <default>false</default>
+        <label>Austin Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Axiom</fullName>
+        <default>false</default>
+        <label>Axiom</label>
+    </customValue>
+    <customValue>
+        <fullName>Balboa Travel</fullName>
+        <default>false</default>
+        <label>Balboa Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Barrhead Travel</fullName>
+        <default>false</default>
+        <label>Barrhead Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>BCD - Affiliate</fullName>
+        <default>false</default>
+        <label>BCD - Affiliate</label>
+    </customValue>
+    <customValue>
+        <fullName>BCD - Corporate</fullName>
+        <default>false</default>
+        <label>BCD - Corporate</label>
+    </customValue>
+    <customValue>
+        <fullName>BCD - World Travel Partners</fullName>
+        <default>false</default>
+        <label>BCD - World Travel Partners</label>
+    </customValue>
+    <customValue>
+        <fullName>Beaver Travel</fullName>
+        <default>false</default>
+        <label>Beaver Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Bigalow</fullName>
+        <default>false</default>
+        <label>Bigalow</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue Ribbon (AX Affiliate)</fullName>
+        <default>false</default>
+        <label>Blue Ribbon (AX Affiliate)</label>
+    </customValue>
+    <customValue>
+        <fullName>Boscov&apos;s</fullName>
+        <default>false</default>
+        <label>Boscov&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Boulder Travel</fullName>
+        <default>false</default>
+        <label>Boulder Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Brighton Travel</fullName>
+        <default>false</default>
+        <label>Brighton Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>BTI</fullName>
+        <default>false</default>
+        <label>BTI</label>
+    </customValue>
+    <customValue>
+        <fullName>BTS</fullName>
+        <default>false</default>
+        <label>BTS</label>
+    </customValue>
+    <customValue>
+        <fullName>Business World Travel</fullName>
+        <default>false</default>
+        <label>Business World Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Caboose Travel Services</fullName>
+        <default>false</default>
+        <label>Caboose Travel Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Cadence Travel</fullName>
+        <default>false</default>
+        <label>Cadence Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Cain Travel</fullName>
+        <default>false</default>
+        <label>Cain Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Cambridge Travel</fullName>
+        <default>false</default>
+        <label>Cambridge Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Campbell</fullName>
+        <default>false</default>
+        <label>Campbell</label>
+    </customValue>
+    <customValue>
+        <fullName>Capita Travel and Events</fullName>
+        <default>false</default>
+        <label>Capita Travel and Events</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardinal Travel Service Inc.</fullName>
+        <default>false</default>
+        <label>Cardinal Travel Service Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>CARDOZA</fullName>
+        <default>false</default>
+        <label>CARDOZA</label>
+    </customValue>
+    <customValue>
+        <fullName>Carlson Wagonlit Travel</fullName>
+        <default>false</default>
+        <label>Carlson Wagonlit Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Carrousel</fullName>
+        <default>false</default>
+        <label>Carrousel</label>
+    </customValue>
+    <customValue>
+        <fullName>Casto Travel</fullName>
+        <default>false</default>
+        <label>Casto Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Castro Travel</fullName>
+        <default>false</default>
+        <label>Castro Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Chestnut Hill Travel</fullName>
+        <default>false</default>
+        <label>Chestnut Hill Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Chima Travel</fullName>
+        <default>false</default>
+        <label>Chima Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Christopherson</fullName>
+        <default>false</default>
+        <label>Christopherson</label>
+    </customValue>
+    <customValue>
+        <fullName>Church Travel</fullName>
+        <default>false</default>
+        <label>Church Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>CI Azumano</fullName>
+        <default>false</default>
+        <label>CI Azumano</label>
+    </customValue>
+    <customValue>
+        <fullName>Clarity</fullName>
+        <default>false</default>
+        <label>Clarity</label>
+    </customValue>
+    <customValue>
+        <fullName>Classic Travel</fullName>
+        <default>false</default>
+        <label>Classic Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Cleveland Circle</fullName>
+        <default>false</default>
+        <label>Cleveland Circle</label>
+    </customValue>
+    <customValue>
+        <fullName>Click Travel</fullName>
+        <default>false</default>
+        <label>Click Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Clyde Travel</fullName>
+        <default>false</default>
+        <label>Clyde Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>CMC Travel</fullName>
+        <default>false</default>
+        <label>CMC Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Colonial Travel</fullName>
+        <default>false</default>
+        <label>Colonial Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Commonwealth Travel</fullName>
+        <default>false</default>
+        <label>Commonwealth Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Conlin Travel</fullName>
+        <default>false</default>
+        <label>Conlin Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Continental Travel Winnipeg</fullName>
+        <default>false</default>
+        <label>Continental Travel Winnipeg</label>
+    </customValue>
+    <customValue>
+        <fullName>Copley Travel</fullName>
+        <default>false</default>
+        <label>Copley Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Corniche</fullName>
+        <default>false</default>
+        <label>Corniche</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Travel International</fullName>
+        <default>false</default>
+        <label>Corporate Travel International</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Traveller</fullName>
+        <default>false</default>
+        <label>Corporate Traveller</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Travel Management (CTM)</fullName>
+        <default>false</default>
+        <label>Corporate Travel Management (CTM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Covington</fullName>
+        <default>false</default>
+        <label>Covington</label>
+    </customValue>
+    <customValue>
+        <fullName>CTC</fullName>
+        <default>false</default>
+        <label>CTC</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Travel</fullName>
+        <default>false</default>
+        <label>Custom Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Danielson Travel</fullName>
+        <default>false</default>
+        <label>Danielson Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Travel</fullName>
+        <default>false</default>
+        <label>Direct Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Donovan Travel</fullName>
+        <default>false</default>
+        <label>Donovan Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Doobie Travel</fullName>
+        <default>false</default>
+        <label>Doobie Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>DP&amp; L Travel Mangement</fullName>
+        <default>false</default>
+        <label>DP&amp; L Travel Mangement</label>
+    </customValue>
+    <customValue>
+        <fullName>Duxbury Travel Service Inc.</fullName>
+        <default>false</default>
+        <label>Duxbury Travel Service Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Egencia</fullName>
+        <default>false</default>
+        <label>Egencia</label>
+    </customValue>
+    <customValue>
+        <fullName>Elite Travel Management</fullName>
+        <default>false</default>
+        <label>Elite Travel Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Eltiv Travel</fullName>
+        <default>false</default>
+        <label>Eltiv Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Encore Travel</fullName>
+        <default>false</default>
+        <label>Encore Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>EQ</fullName>
+        <default>false</default>
+        <label>EQ</label>
+    </customValue>
+    <customValue>
+        <fullName>ETCtravel</fullName>
+        <default>false</default>
+        <label>ETCtravel</label>
+    </customValue>
+    <customValue>
+        <fullName>Excel Travel</fullName>
+        <default>false</default>
+        <label>Excel Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Travel</fullName>
+        <default>false</default>
+        <label>Executive Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Expedia</fullName>
+        <default>false</default>
+        <label>Expedia</label>
+    </customValue>
+    <customValue>
+        <fullName>FCM Travel Solutions</fullName>
+        <default>false</default>
+        <label>FCM Travel Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>First Discount Travel</fullName>
+        <default>false</default>
+        <label>First Discount Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Five Star Travel</fullName>
+        <default>false</default>
+        <label>Five Star Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Flagship Travel</fullName>
+        <default>false</default>
+        <label>Flagship Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Flight Centre</fullName>
+        <default>false</default>
+        <label>Flight Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Forest</fullName>
+        <default>false</default>
+        <label>Forest</label>
+    </customValue>
+    <customValue>
+        <fullName>Fox World Travel</fullName>
+        <default>false</default>
+        <label>Fox World Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Fresh Pond Travel</fullName>
+        <default>false</default>
+        <label>Fresh Pond Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Frosch</fullName>
+        <default>false</default>
+        <label>Frosch</label>
+    </customValue>
+    <customValue>
+        <fullName>Fugazy</fullName>
+        <default>false</default>
+        <label>Fugazy</label>
+    </customValue>
+    <customValue>
+        <fullName>GAC Limited</fullName>
+        <default>false</default>
+        <label>GAC Limited</label>
+    </customValue>
+    <customValue>
+        <fullName>Gama</fullName>
+        <default>false</default>
+        <label>Gama</label>
+    </customValue>
+    <customValue>
+        <fullName>Gant Travel</fullName>
+        <default>false</default>
+        <label>Gant Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Garber Travel</fullName>
+        <default>false</default>
+        <label>Garber Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Gateway Travel</fullName>
+        <default>false</default>
+        <label>Gateway Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>GetGoing</fullName>
+        <default>false</default>
+        <label>GetGoing</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Excellence Travel</fullName>
+        <default>false</default>
+        <label>Global Excellence Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>GlobalStar</fullName>
+        <default>false</default>
+        <label>GlobalStar</label>
+    </customValue>
+    <customValue>
+        <fullName>Globaltravel.com</fullName>
+        <default>false</default>
+        <label>Globaltravel.com</label>
+    </customValue>
+    <customValue>
+        <fullName>Globespan</fullName>
+        <default>false</default>
+        <label>Globespan</label>
+    </customValue>
+    <customValue>
+        <fullName>Globe Travel</fullName>
+        <default>false</default>
+        <label>Globe Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Globetrotter</fullName>
+        <default>false</default>
+        <label>Globetrotter</label>
+    </customValue>
+    <customValue>
+        <fullName>Going Places</fullName>
+        <default>false</default>
+        <label>Going Places</label>
+    </customValue>
+    <customValue>
+        <fullName>Grace Travel</fullName>
+        <default>false</default>
+        <label>Grace Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Great Adventures Travel</fullName>
+        <default>false</default>
+        <label>Great Adventures Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Greenell Travel</fullName>
+        <default>false</default>
+        <label>Greenell Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Hewins</fullName>
+        <default>false</default>
+        <label>Hewins</label>
+    </customValue>
+    <customValue>
+        <fullName>Horizon Travel</fullName>
+        <default>false</default>
+        <label>Horizon Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>House of Travel</fullName>
+        <default>false</default>
+        <label>House of Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>HRG</fullName>
+        <default>false</default>
+        <label>HRG</label>
+    </customValue>
+    <customValue>
+        <fullName>Hunter World Travel</fullName>
+        <default>false</default>
+        <label>Hunter World Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Internet</fullName>
+        <default>false</default>
+        <label>Internet</label>
+    </customValue>
+    <customValue>
+        <fullName>ITT Travel</fullName>
+        <default>false</default>
+        <label>ITT Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Japanese Travel Bureau (JTB)</fullName>
+        <default>false</default>
+        <label>Japanese Travel Bureau (JTB)</label>
+    </customValue>
+    <customValue>
+        <fullName>Jigsaw Travel</fullName>
+        <default>false</default>
+        <label>Jigsaw Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Johnston Travel and Tours</fullName>
+        <default>false</default>
+        <label>Johnston Travel and Tours</label>
+    </customValue>
+    <customValue>
+        <fullName>JourneyCorp</fullName>
+        <default>false</default>
+        <label>JourneyCorp</label>
+    </customValue>
+    <customValue>
+        <fullName>Joy Travel</fullName>
+        <default>false</default>
+        <label>Joy Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Kennebunkport Travel</fullName>
+        <default>false</default>
+        <label>Kennebunkport Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Key Travel</fullName>
+        <default>false</default>
+        <label>Key Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Klinqerman Travel Inc.</fullName>
+        <default>false</default>
+        <label>Klinqerman Travel Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Laurier Du Vallon</fullName>
+        <default>false</default>
+        <label>Laurier Du Vallon</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawyers Travel</fullName>
+        <default>false</default>
+        <label>Lawyers Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Liberty Travel</fullName>
+        <default>false</default>
+        <label>Liberty Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Lodge Link</fullName>
+        <default>false</default>
+        <label>Lodge Link</label>
+    </customValue>
+    <customValue>
+        <fullName>Longwood</fullName>
+        <default>false</default>
+        <label>Longwood</label>
+    </customValue>
+    <customValue>
+        <fullName>Luxe Travel</fullName>
+        <default>false</default>
+        <label>Luxe Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>LXR Travel</fullName>
+        <default>false</default>
+        <label>LXR Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Malmberg Travel</fullName>
+        <default>false</default>
+        <label>Malmberg Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Mansfield Travel</fullName>
+        <default>false</default>
+        <label>Mansfield Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Marathon</fullName>
+        <default>false</default>
+        <label>Marathon</label>
+    </customValue>
+    <customValue>
+        <fullName>Maritime Travel</fullName>
+        <default>false</default>
+        <label>Maritime Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Maritz</fullName>
+        <default>false</default>
+        <label>Maritz</label>
+    </customValue>
+    <customValue>
+        <fullName>Marshfield Travel</fullName>
+        <default>false</default>
+        <label>Marshfield Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Merit Travel Group</fullName>
+        <default>false</default>
+        <label>Merit Travel Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Merrits Travel Center</fullName>
+        <default>false</default>
+        <label>Merrits Travel Center</label>
+    </customValue>
+    <customValue>
+        <fullName>MertBiz</fullName>
+        <default>false</default>
+        <label>MertBiz</label>
+    </customValue>
+    <customValue>
+        <fullName>Milford Travel</fullName>
+        <default>false</default>
+        <label>Milford Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Milne Travel</fullName>
+        <default>false</default>
+        <label>Milne Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Motor City Travel</fullName>
+        <default>false</default>
+        <label>Motor City Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Munro&apos;s Travel</fullName>
+        <default>false</default>
+        <label>Munro&apos;s Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Navan</fullName>
+        <default>false</default>
+        <label>Navan</label>
+    </customValue>
+    <customValue>
+        <fullName>New Horizons</fullName>
+        <default>false</default>
+        <label>New Horizons</label>
+    </customValue>
+    <customValue>
+        <fullName>NexTravel</fullName>
+        <default>false</default>
+        <label>NexTravel</label>
+    </customValue>
+    <customValue>
+        <fullName>Nippon Travel</fullName>
+        <default>false</default>
+        <label>Nippon Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Novelis</fullName>
+        <default>false</default>
+        <label>Novelis</label>
+    </customValue>
+    <customValue>
+        <fullName>nuTravel</fullName>
+        <default>false</default>
+        <label>nuTravel</label>
+    </customValue>
+    <customValue>
+        <fullName>OK Travel</fullName>
+        <default>false</default>
+        <label>OK Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>OKT Travel</fullName>
+        <default>false</default>
+        <label>OKT Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Omega World Travel</fullName>
+        <default>false</default>
+        <label>Omega World Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Omni Travel Services Inc.</fullName>
+        <default>false</default>
+        <label>Omni Travel Services Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>On-the-Go</fullName>
+        <default>false</default>
+        <label>On-the-Go</label>
+    </customValue>
+    <customValue>
+        <fullName>Options Travel</fullName>
+        <default>false</default>
+        <label>Options Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Orbitz Travel</fullName>
+        <default>false</default>
+        <label>Orbitz Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>OTT Travel</fullName>
+        <default>false</default>
+        <label>OTT Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Ovation Travel</fullName>
+        <default>false</default>
+        <label>Ovation Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Pan American Travel Services</fullName>
+        <default>false</default>
+        <label>Pan American Travel Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Plaza Travel</fullName>
+        <default>false</default>
+        <label>Park Plaza Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Travel</fullName>
+        <default>false</default>
+        <label>Park Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Peak Performance Meetings and Incentives</fullName>
+        <default>false</default>
+        <label>Peak Performance Meetings and Incentives</label>
+    </customValue>
+    <customValue>
+        <fullName>Penny Pitou Travel</fullName>
+        <default>false</default>
+        <label>Penny Pitou Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Perkins Travel</fullName>
+        <default>false</default>
+        <label>Perkins Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>PGL Travel</fullName>
+        <default>false</default>
+        <label>PGL Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Pioneer Travel</fullName>
+        <default>false</default>
+        <label>Pioneer Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Plaza Travel</fullName>
+        <default>false</default>
+        <label>Plaza Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Plymouth Travel</fullName>
+        <default>false</default>
+        <label>Plymouth Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Prestige Travel</fullName>
+        <default>false</default>
+        <label>Prestige Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Prime Travel</fullName>
+        <default>false</default>
+        <label>Prime Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Savings Network</fullName>
+        <default>false</default>
+        <label>Professional Savings Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Travel - Ohio</fullName>
+        <default>false</default>
+        <label>Professional Travel - Ohio</label>
+    </customValue>
+    <customValue>
+        <fullName>Protravel International</fullName>
+        <default>false</default>
+        <label>Protravel International</label>
+    </customValue>
+    <customValue>
+        <fullName>QA Business Travel</fullName>
+        <default>false</default>
+        <label>QA Business Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Quinwell Travel</fullName>
+        <default>false</default>
+        <label>Quinwell Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Tag</fullName>
+        <default>false</default>
+        <label>Red Tag</label>
+    </customValue>
+    <customValue>
+        <fullName>Reed &amp; Mackay</fullName>
+        <default>false</default>
+        <label>Reed &amp; Mackay</label>
+    </customValue>
+    <customValue>
+        <fullName>Rich Travel</fullName>
+        <default>false</default>
+        <label>Rich Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Riverside Travel</fullName>
+        <default>false</default>
+        <label>Riverside Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Robustelli</fullName>
+        <default>false</default>
+        <label>Robustelli</label>
+    </customValue>
+    <customValue>
+        <fullName>Royal Travel</fullName>
+        <default>false</default>
+        <label>Royal Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Sanditz Travel</fullName>
+        <default>false</default>
+        <label>Sanditz Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea Gate</fullName>
+        <default>false</default>
+        <label>Sea Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Shorts Travel Management</fullName>
+        <default>false</default>
+        <label>Shorts Travel Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Sky</fullName>
+        <default>false</default>
+        <label>Sky</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Travel</fullName>
+        <default>false</default>
+        <label>Smart Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Sophisticated Travel</fullName>
+        <default>false</default>
+        <label>Sophisticated Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>South Shore Travel</fullName>
+        <default>false</default>
+        <label>South Shore Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Specialised Travel</fullName>
+        <default>false</default>
+        <label>Specialised Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Spotnana</fullName>
+        <default>false</default>
+        <label>Spotnana</label>
+    </customValue>
+    <customValue>
+        <fullName>Stage and Screen</fullName>
+        <default>false</default>
+        <label>Stage and Screen</label>
+    </customValue>
+    <customValue>
+        <fullName>Sterling Travel</fullName>
+        <default>false</default>
+        <label>Sterling Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Stewart Travel</fullName>
+        <default>false</default>
+        <label>Stewart Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Stonehill Travel</fullName>
+        <default>false</default>
+        <label>Stonehill Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Stow Travel Center</fullName>
+        <default>false</default>
+        <label>Stow Travel Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunset Travel</fullName>
+        <default>false</default>
+        <label>Sunset Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Tangerine Travel</fullName>
+        <default>false</default>
+        <label>Tangerine Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>TD Travel Group</fullName>
+        <default>false</default>
+        <label>TD Travel Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Teplis</fullName>
+        <default>false</default>
+        <label>Teplis</label>
+    </customValue>
+    <customValue>
+        <fullName>The San Diego Travel Company</fullName>
+        <default>false</default>
+        <label>The San Diego Travel Company</label>
+    </customValue>
+    <customValue>
+        <fullName>The Travel Collaborative</fullName>
+        <default>false</default>
+        <label>The Travel Collaborative</label>
+    </customValue>
+    <customValue>
+        <fullName>The Travel Team</fullName>
+        <default>false</default>
+        <label>The Travel Team</label>
+    </customValue>
+    <customValue>
+        <fullName>TMP Travel</fullName>
+        <default>false</default>
+        <label>TMP Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>TNT VACATIONS</fullName>
+        <default>false</default>
+        <label>TNT VACATIONS</label>
+    </customValue>
+    <customValue>
+        <fullName>Topps Travel</fullName>
+        <default>false</default>
+        <label>Topps Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Total Travel</fullName>
+        <default>false</default>
+        <label>Total Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Tour Associates</fullName>
+        <default>false</default>
+        <label>Tour Associates</label>
+    </customValue>
+    <customValue>
+        <fullName>Tower Travel</fullName>
+        <default>false</default>
+        <label>Tower Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel and Transport</fullName>
+        <default>false</default>
+        <label>Travel and Transport</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Bank</fullName>
+        <default>false</default>
+        <label>Travel Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Company of CT</fullName>
+        <default>false</default>
+        <label>Travel Company of CT</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Corp International</fullName>
+        <default>false</default>
+        <label>Travel Corp International</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Destinations Inc.</fullName>
+        <default>false</default>
+        <label>Travel Destinations Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Dynamics</fullName>
+        <default>false</default>
+        <label>Travel Dynamics</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Edge</fullName>
+        <default>false</default>
+        <label>Travel Edge</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Experts</fullName>
+        <default>false</default>
+        <label>Travel Experts</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Focus</fullName>
+        <default>false</default>
+        <label>Travel Focus</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Inc.</fullName>
+        <default>false</default>
+        <label>Travel Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Leaders - Corporate</fullName>
+        <default>false</default>
+        <label>Travel Leaders - Corporate</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Leaders - Franchise</fullName>
+        <default>false</default>
+        <label>Travel Leaders - Franchise</label>
+    </customValue>
+    <customValue>
+        <fullName>Travellink</fullName>
+        <default>false</default>
+        <label>Travellink</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Management Group</fullName>
+        <default>false</default>
+        <label>Travel Management Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Management Partners Inc.</fullName>
+        <default>false</default>
+        <label>Travel Management Partners Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Network</fullName>
+        <default>false</default>
+        <label>Travel Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel One</fullName>
+        <default>false</default>
+        <label>Travel One</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Partners</fullName>
+        <default>false</default>
+        <label>Travel Partners</label>
+    </customValue>
+    <customValue>
+        <fullName>Travelpath</fullName>
+        <default>false</default>
+        <label>Travelpath</label>
+    </customValue>
+    <customValue>
+        <fullName>TravelPerks</fullName>
+        <default>false</default>
+        <label>TravelPerks</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Pro</fullName>
+        <default>false</default>
+        <label>Travel Pro</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Solutions International (TSIUSA)</fullName>
+        <default>false</default>
+        <label>Travel Solutions International (TSIUSA)</label>
+    </customValue>
+    <customValue>
+        <fullName>TravelStore</fullName>
+        <default>false</default>
+        <label>TravelStore</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Tree</fullName>
+        <default>false</default>
+        <label>Travel Tree</label>
+    </customValue>
+    <customValue>
+        <fullName>TravelX</fullName>
+        <default>false</default>
+        <label>TravelX</label>
+    </customValue>
+    <customValue>
+        <fullName>Travizon</fullName>
+        <default>false</default>
+        <label>Travizon</label>
+    </customValue>
+    <customValue>
+        <fullName>TTI Travel</fullName>
+        <default>false</default>
+        <label>TTI Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Tzell Travel Group</fullName>
+        <default>false</default>
+        <label>Tzell Travel Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Ultramar</fullName>
+        <default>false</default>
+        <label>Ultramar</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniglobe</fullName>
+        <default>false</default>
+        <label>Uniglobe</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniglobe East</fullName>
+        <default>false</default>
+        <label>Uniglobe East</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniglobe Lexus</fullName>
+        <default>false</default>
+        <label>Uniglobe Lexus</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniglobe One</fullName>
+        <default>false</default>
+        <label>Uniglobe One</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniglobe West</fullName>
+        <default>false</default>
+        <label>Uniglobe West</label>
+    </customValue>
+    <customValue>
+        <fullName>United Travel</fullName>
+        <default>false</default>
+        <label>United Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Universal Travel</fullName>
+        <default>false</default>
+        <label>Universal Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Universe Travel</fullName>
+        <default>false</default>
+        <label>Universe Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>University Travel</fullName>
+        <default>false</default>
+        <label>University Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniworld</fullName>
+        <default>false</default>
+        <label>Uniworld</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Unmanaged</fullName>
+        <default>false</default>
+        <label>Unmanaged</label>
+    </customValue>
+    <customValue>
+        <fullName>Valerie Wilson</fullName>
+        <default>false</default>
+        <label>Valerie Wilson</label>
+    </customValue>
+    <customValue>
+        <fullName>Van Zile Travel</fullName>
+        <default>false</default>
+        <label>Van Zile Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Village Travel</fullName>
+        <default>false</default>
+        <label>Village Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>VIP Travel</fullName>
+        <default>false</default>
+        <label>VIP Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Vista Travel</fullName>
+        <default>false</default>
+        <label>Vista Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Warren Travel</fullName>
+        <default>false</default>
+        <label>Warren Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Wayland Travel</fullName>
+        <default>false</default>
+        <label>Wayland Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Weymouth Travel</fullName>
+        <default>false</default>
+        <label>Weymouth Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Whitcomb Travel</fullName>
+        <default>false</default>
+        <label>Whitcomb Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Wide World Travel</fullName>
+        <default>false</default>
+        <label>Wide World Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Willamette International Travel</fullName>
+        <default>false</default>
+        <label>Willamette International Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Williamsburg Travel</fullName>
+        <default>false</default>
+        <label>Williamsburg Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>WND</fullName>
+        <default>false</default>
+        <label>WND</label>
+    </customValue>
+    <customValue>
+        <fullName>Woodside Travel</fullName>
+        <default>false</default>
+        <label>Woodside Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>WorldGo Travel Management</fullName>
+        <default>false</default>
+        <label>WorldGo Travel Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Worldtek</fullName>
+        <default>false</default>
+        <label>Worldtek</label>
+    </customValue>
+    <customValue>
+        <fullName>World Travel Inc.</fullName>
+        <default>false</default>
+        <label>World Travel Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>World Travel Services</fullName>
+        <default>false</default>
+        <label>World Travel Services</label>
+    </customValue>
+    <customValue>
+        <fullName>WTP</fullName>
+        <default>false</default>
+        <label>WTP</label>
+    </customValue>
+    <customValue>
+        <fullName>W Travel</fullName>
+        <default>false</default>
+        <label>W Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Yankee Holidays Travel</fullName>
+        <default>false</default>
+        <label>Yankee Holidays Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Young&apos;s - Amex</fullName>
+        <default>false</default>
+        <label>Young&apos;s - Amex</label>
+    </customValue>
+    <customValue>
+        <fullName>Young&apos;s Travel</fullName>
+        <default>false</default>
+        <label>Young&apos;s Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>YYZ Travel</fullName>
+        <default>false</default>
+        <label>YYZ Travel</label>
+    </customValue>
+    <description>Incumbent TMC values as seen on Opportunites and Accounts</description>
+    <masterLabel>Incumbent TMC</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

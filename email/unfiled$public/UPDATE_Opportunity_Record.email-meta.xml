@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alert users to changes on Opportunity record</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>UPDATE: Opportunity Record</name>
+    <style>none</style>
+    <subject>UPDATE - Changes on the Opportunity Record in Salesforce</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

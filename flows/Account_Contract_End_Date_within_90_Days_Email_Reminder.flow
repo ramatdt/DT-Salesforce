@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Account_Owner_Direct_Select</name>
+        <label>Account Owner Direct Select?</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Is Direct Select</label>
+        </rules>
+        <rules>
+            <name>Is_Not_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Is Not Direct Select</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Contract_End_Date_90_Days</name>
+        <label>Contract End Date 90 Days</label>
+        <locationX>1986</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Contract_End_Date__c</leftValueReference>
+                <operator>LessThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>Check90DaysfromToday</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sort_Client_Type</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_1_of_Account_Owner_Direct_Select</name>
+        <label>Copy 1 of Account Owner Direct Select?</label>
+        <locationX>578</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_Is_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 1 of Is Direct Select</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Is_Not_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 1 of Is Not Direct Select</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_2_of_Account_Owner_Direct_Select</name>
+        <label>Copy 2 of Account Owner Direct Select?</label>
+        <locationX>1106</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_2_of_Is_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 2 of Is Direct Select</label>
+        </rules>
+        <rules>
+            <name>Copy_2_of_Is_Not_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 2 of Is Not Direct Select</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_3_of_Account_Owner_Direct_Select</name>
+        <label>Copy 3 of Account Owner Direct Select?</label>
+        <locationX>1634</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_3_of_Is_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 3 of Is Direct Select</label>
+        </rules>
+        <rules>
+            <name>Copy_3_of_Is_Not_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 3 of Is Not Direct Select</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_4_of_Account_Owner_Direct_Select</name>
+        <label>Copy 4 of Account Owner Direct Select?</label>
+        <locationX>2162</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_4_of_Is_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 4 of Is Direct Select</label>
+        </rules>
+        <rules>
+            <name>Copy_4_of_Is_Not_Direct_Select</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Owner_Email__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>directselect_west@dt.com</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 4 of Is Not Direct Select</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sort_Client_Type</name>
+        <label>Sort Client Type</label>
+        <locationX>1282</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>West_Client</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>West Client</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_Owner_Direct_Select</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>West Client</label>
+        </rules>
+        <rules>
+            <name>Central_Client</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Central Client</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Account_Owner_Direct_Select</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Central Client</label>
+        </rules>
+        <rules>
+            <name>East_Client</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>East Client</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_2_of_Account_Owner_Direct_Select</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>East Client</label>
+        </rules>
+        <rules>
+            <name>Canada_East_Client</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canada Client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Region__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canada East</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_3_of_Account_Owner_Direct_Select</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Canada East Client</label>
+        </rules>
+        <rules>
+            <name>Canada_West_Client</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canada Client</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Region__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canada West</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_4_of_Account_Owner_Direct_Select</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Canada West Client</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>Check90DaysfromToday</name>
+        <dataType>Date</dataType>
+        <expression>TODAY() + 90</expression>
+    </formulas>
+    <interviewLabel>Account: Contract End Date within 90 Days Email Reminder {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Account: Contract End Date within 90 Days Email Reminder</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>1860</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Contract_End_Date_90_Days</targetReference>
+        </connector>
+        <filterLogic>(1 OR 2 OR 3 OR 4) AND 5</filterLogic>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Canada Client</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>East Client</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Central Client</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>West Client</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Contract_End_Date__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

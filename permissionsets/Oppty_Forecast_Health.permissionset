@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Users with this permission set can complete and/or update the Forecast Health field on Opportunity object</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Forecast_Health__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Oppty - Forecast Health</label>
+</PermissionSet>

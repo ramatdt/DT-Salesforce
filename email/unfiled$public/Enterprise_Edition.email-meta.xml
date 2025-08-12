@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>DT employee communication re: data migration to Enterprise Edition.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Enterprise Edition</name>
+    <style>none</style>
+    <subject>Upgrade to Salesforce Enterprise Edition</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

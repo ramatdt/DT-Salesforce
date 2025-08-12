@@ -1,0 +1,17 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Georgia,serif;">Dear {{{Recipient.FirstName}}},<br />
+<br />
+There has never been a better time, then now, to take a look at what Direct Travel has to offer for {{{Recipient.Account_Name__c}}}'s travel needs.&nbsp;<br />
+<br />
+Direct Travel is a global travel management company (TMC). &nbsp;We service the airline, hotel, rail, car rental and other transportation needs of organizations of varying sizes throughout the world. &nbsp;Our consultation, supplier relations and technology have resulted in quality travel programs featuring significant cost containment. Here in the US we are ranked as one of the top 10 TMCs.&nbsp;&nbsp; We have always specialized in the Mid-market accounts, such as yours.<br />
+Things are rapidly changing and evolving due to the Covid-19 epidemic and in this quieter travel time, it’s the best time to consider a new TMC that will be ready when travel resumes in full force.</span></span><br />
+<br />
+<span style="font-size:12px;"><span style="font-family:Georgia,serif;">(Sales Person), your local Direct Travel representative, can meet with you over the phone, at your convenience. &nbsp;Please contact me to schedule this phone appointment.<br />
+<br />
+I look forward to hearing from you!<br />
+<br />
+My best,<br />
+<br />
+{{{Sender.Signature}}}</span></span></body></html>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Account Manager</fullName>
+        <default>false</default>
+        <label>Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CSO</fullName>
+        <default>false</default>
+        <label>CSO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Sponsor</fullName>
+        <default>false</default>
+        <label>Executive Sponsor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Global AM</fullName>
+        <default>false</default>
+        <label>Global AM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Global SME</fullName>
+        <default>false</default>
+        <label>Global SME</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Air</fullName>
+        <default>false</default>
+        <label>Group Air</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implementation Lead</fullName>
+        <default>false</default>
+        <label>Implementation Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Qualifier</fullName>
+        <default>false</default>
+        <label>Lead Qualifier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Legal Lead</fullName>
+        <default>false</default>
+        <label>Legal Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>M&amp;E</fullName>
+        <default>false</default>
+        <label>M&amp;E</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Oppty Owner - Split</fullName>
+        <default>false</default>
+        <label>Oppty Owner - Split</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ops Team</fullName>
+        <default>false</default>
+        <label>Ops Team</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre-Sales Consultant</fullName>
+        <default>false</default>
+        <label>Pre-Sales Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Admin</fullName>
+        <default>false</default>
+        <label>Sales Admin</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Leader</fullName>
+        <default>false</default>
+        <label>Sales Leader</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Manager</fullName>
+        <default>false</default>
+        <label>Sales Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Rep</fullName>
+        <default>false</default>
+        <label>Sales Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Strategic Pursuit Owner</fullName>
+        <default>false</default>
+        <label>Strategic Pursuit Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Value Eng/Tech Solutions</fullName>
+        <default>false</default>
+        <label>Value Eng/Tech Solutions</label>
+    </standardValue>
+</StandardValueSet>

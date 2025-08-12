@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Canada East</fullName>
+        <default>false</default>
+        <label>Canada East</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada West</fullName>
+        <default>false</default>
+        <label>Canada West</label>
+    </customValue>
+    <customValue>
+        <fullName>Central</fullName>
+        <default>false</default>
+        <label>Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Corp HQ</fullName>
+        <default>false</default>
+        <label>Corp HQ</label>
+    </customValue>
+    <customValue>
+        <fullName>East</fullName>
+        <default>false</default>
+        <label>East</label>
+    </customValue>
+    <customValue>
+        <fullName>UK Region</fullName>
+        <default>false</default>
+        <label>UK Region</label>
+    </customValue>
+    <customValue>
+        <fullName>West</fullName>
+        <default>false</default>
+        <label>West</label>
+    </customValue>
+    <customValue>
+        <fullName>ATPI</fullName>
+        <default>false</default>
+        <label>ATPI</label>
+    </customValue>
+    <customValue>
+        <fullName>Avenir</fullName>
+        <default>false</default>
+        <label>Avenir</label>
+    </customValue>
+    <customValue>
+        <fullName>Delaware</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Delaware</label>
+    </customValue>
+    <customValue>
+        <fullName>Virginia</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Virginia</label>
+    </customValue>
+    <customValue>
+        <fullName>North Carolina</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>North Carolina</label>
+    </customValue>
+    <customValue>
+        <fullName>California</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>California</label>
+    </customValue>
+    <customValue>
+        <fullName>Ohio</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ohio</label>
+    </customValue>
+    <customValue>
+        <fullName>Minnesota</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Minnesota</label>
+    </customValue>
+    <customValue>
+        <fullName>Florida</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Florida</label>
+    </customValue>
+    <customValue>
+        <fullName>Chicago</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Chicago</label>
+    </customValue>
+    <customValue>
+        <fullName>Connecticut</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Connecticut</label>
+    </customValue>
+    <customValue>
+        <fullName>New Jersey</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Jersey</label>
+    </customValue>
+    <customValue>
+        <fullName>New York</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New York</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Pennsylvania</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pennsylvania</label>
+    </customValue>
+    <customValue>
+        <fullName>Washington, D.C.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Washington, D.C.</label>
+    </customValue>
+    <customValue>
+        <fullName>Maryland</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Maryland</label>
+    </customValue>
+    <description>Global picklist for Region on Lead, Account &amp; Users</description>
+    <masterLabel>Region</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

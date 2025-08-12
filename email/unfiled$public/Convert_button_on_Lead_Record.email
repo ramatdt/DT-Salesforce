@@ -1,0 +1,15 @@
+Hi Everyone,
+
+A change has been made to the "Convert" button on the Lead Record in Salesforce. 
+
+When you click on the button "Convert" on a Lead record and the Convert Lead screen launches, please remember to check the box "Do not create a new opportunity record upon conversion." 
+
+However, if you do want to create an Opportunity when the lead is converted, leave the box unchecked.
+
+In the past, this box was already checked for you.  However, this functionality is not supported in Lightning. 
+
+If you forget, and create an Opportunity record in error, please delete the Opportunity record. 
+
+Also, when an Lead is converted, a Contact and Account record is created. Please remember to update the Type, Region, Account Source and Industry fields.
+
+Thank you,
